@@ -32,6 +32,11 @@ if (target === 'main') {
   fs.rmSync(path.join(root, 'files'), { recursive: true, force: true });
 }
 
+// 2b. Design mockups only exist on preview builds (never on the real domain).
+if (target === 'blog' || !(process.env.SITE_MAIN_URL || process.env.SITE_BLOG_URL)) {
+  fs.rmSync(path.join(root, 'mockups'), { recursive: true, force: true });
+}
+
 // 3. sitemap.xml – every built page except 404 / noindex pages
 const pages = walk(root).filter((f) => f.endsWith('.html') && !f.endsWith('404.html'));
 const urls = pages

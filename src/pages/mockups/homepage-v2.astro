@@ -1,0 +1,445 @@
+---
+// DESIGN MOCKUP – alternative homepage layout (inspired by the structure of lathampool.ca).
+// Lives at /mockups/homepage-v2 on preview builds only; scripts/postbuild.mjs removes it from
+// production builds. The current homepage (src/content/pages/index.json) is untouched.
+import '@fontsource/young-serif/400.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+import { SITE, posts, href, readingMinutes } from '../../lib/content';
+
+const f = (p: string) => href('/files/' + p, 'main');
+const quote = href(SITE.quoteUrl, 'main');
+const booking = 'https://clienthub.getjobber.com/booking/c58323d5-ad65-4e50-a591-6c2387b99aa2';
+const calculator = 'https://hipelpools.outgrow.us/fiberglass-pool-cost-calculator-canada';
+
+const paths = [
+  { title: 'Fiberglass pools', text: 'Smooth, durable shells from Azoria, Latham and Imagine, in over 100 models.', img: f('drone-shot-1-1-1.jpg'), href: '/fiberglass-pools/locations/kitchener' },
+  { title: 'Vinyl liner pools', text: 'Any shape, any size, with liner patterns to match your yard.', img: f('vinyl-liner-pool-1.jpg'), href: '/vinyl-liner-pools/locations/kitchener-waterloo-cambridge-guelph-ontario' },
+  { title: 'Pool service', text: 'Openings, closings, weekly care and repairs from the crew that builds them.', img: f('pool-service-tech-vacuuming-pool.png'), href: '/pool-service-repair/locations/kitchener-waterloo-cambridge-guelph' },
+];
+const extras = [
+  { title: 'Automatic pool covers', text: 'Close the pool with a key turn. Keeps heat in, debris out and kids safe.', href: '/pool-accessories/automatic-pool-covers-ontario', icon: 'cover' },
+  { title: 'Inground spas', text: 'Fiberglass spas set beside or inside your pool, heated year round.', href: '/immerspa-inground-spas-ontario', icon: 'spa' },
+  { title: 'Water features', text: 'Sheer descents, bubblers and deck jets for sound and movement.', href: '/pool-accessories/pool-water-features-ontario', icon: 'water' },
+  { title: 'Pool automation', text: 'Run pumps, heat, lights and chemistry from your phone.', href: '/pool-accessories/pool-spa-automation-ontario', icon: 'phone' },
+  { title: 'Winter safety covers', text: 'Custom-fit mesh covers that hold weight and keep the water clean till spring.', href: '/accessories/winter-safety-pool-covers', icon: 'snow' },
+];
+const reviews = [
+  { name: 'John M', town: 'Wellesley', text: 'Hipel Pools is just a class act above the rest. From start to finish we had such an excellent experience with absolutely no regrets.' },
+  { name: 'Vivian K', town: 'Waterloo', text: 'Pool installed, with paver coping, and concrete pool deck, free-standing hot tub foundation, and a new deck. If I had to do it again, I would definitely choose Hipel Land & Pool.' },
+  { name: 'Gail L', town: 'Elmira', text: 'Everyone at Hipel Pools made my pool purchase very easy. They kept me informed of all aspects of the delivery and installation. They continue to open and close the pool.' },
+];
+const guides = posts.filter((p) => p.blog === 'main').slice(0, 6);
+const icons: Record<string, string> = {
+  cover: '<path d="M4 9h24v14H4z M4 13h24 M4 17h24" />',
+  spa: '<path d="M6 16h20v6a4 4 0 0 1-4 4H10a4 4 0 0 1-4-4z M11 12c0-2 2-2 2-4 M16 12c0-2 2-2 2-4 M21 12c0-2 2-2 2-4" />',
+  water: '<path d="M16 5c5 6 8 10 8 14a8 8 0 0 1-16 0c0-4 3-8 8-14z" />',
+  phone: '<path d="M10 4h12v24H10z M14 24h4 M13 10h6 M13 14h6" />',
+  snow: '<path d="M16 4v24 M5.6 10l20.8 12 M5.6 22l20.8-12 M13 6l3 3 3-3 M13 26l3-3 3 3" />',
+};
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Homepage mockup (v2) | Hipel Pools</title>
+  <link rel="icon" href={f('favicon-1.png')} />
+</head>
+<body>
+  <div class="mock-note" role="note">Design mockup. Your current homepage is unchanged. <a href="/">View current homepage</a></div>
+
+  <header class="hd" data-hd>
+    <div class="hd__util">
+      <div class="wrap hd__util-in">
+        <span>Serving Kitchener-Waterloo, Cambridge, Guelph and area</span>
+        <nav aria-label="Quick links">
+          <a href={booking} target="_blank" rel="noopener">Book pool service</a>
+          <a href={SITE.phoneHref}>{SITE.phone}</a>
+        </nav>
+      </div>
+    </div>
+    <div class="wrap hd__main">
+      <a class="hd__logo" href="/" aria-label="Hipel Pools home"><img src={f('imported-sitepage-images/hipel-logo-clear-white-1.svg')} alt="Hipel Pools" width="130" height="56" /></a>
+      <nav class="hd__nav" aria-label="Main" data-nav>
+        {SITE.nav.map((item: any) => (
+          <div class="hd__item">
+            {item.href ? <a href={href(item.href, 'main')}>{item.label}</a> : <button type="button" aria-expanded="false">{item.label}</button>}
+            {item.children && (
+              <div class="hd__menu">
+                {item.children.flatMap((c: any) => [c, ...(c.children || [])]).filter((c: any) => c.href).map((c: any) => (
+                  <a href={href(c.href, 'main')}>{c.label}</a>
+                ))}
+              </div>
+            )}
+          </div>
+        ))}
+      </nav>
+      <a class="btn btn--light hd__cta" href={quote}>Request a quote</a>
+      <button class="hd__burger" aria-label="Open menu" aria-expanded="false" data-burger><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img class="hero__img" src={f('hipel-pools-mt-forest-ground-photography-9-1.jpg')} alt="Inground pool and pool house built by Hipel Pools" fetchpriority="high" />
+      <div class="hero__shade"></div>
+      <div class="wrap hero__in">
+        <h1>The pool you keep putting off is one call away.</h1>
+        <p>Custom pools, landscaping and year-round care from a family-run team in Kitchener-Waterloo.</p>
+        <div class="hero__btns">
+          <a class="btn" href={quote}>Request a quote</a>
+          <a class="btn btn--ghost" href="/fiberglass-pools/locations/ontario">Explore pools</a>
+        </div>
+      </div>
+      <svg class="hero__waterline" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 52 C 180 20, 360 20, 540 46 S 900 84, 1080 56 S 1320 18, 1440 40 V90 H0 Z" /></svg>
+    </section>
+
+    <section class="intro wrap">
+      <h2>Resort living in your own backyard.</h2>
+      <p class="lede">Since 2018 we've designed, built and looked after more than 200 pools across Waterloo Region. One crew handles the dig, the pool, the stone and the service calls after.</p>
+      <div class="paths">
+        {paths.map((p) => (
+          <a class="path" href={p.href}>
+            <img src={p.img} alt="" loading="lazy" />
+            <span class="path__body">
+              <span class="path__title">{p.title}</span>
+              <span class="path__text">{p.text}</span>
+            </span>
+            <span class="plus" aria-hidden="true"></span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section class="feature">
+      <img src={f('dji-fly-20240702-093648-206-1719927504040-photo.jpg')} alt="Dolphin Aruba fiberglass pool installed by Hipel Pools in Cambridge" loading="lazy" />
+      <div class="feature__shade"></div>
+      <div class="wrap feature__in">
+        <h2>What does a fiberglass pool cost?</h2>
+        <p>Pick a size, a deck and a few extras, and our build calculator gives you a realistic price range in about two minutes.</p>
+        <a class="btn" href={calculator} target="_blank" rel="noopener">Price my pool</a>
+      </div>
+    </section>
+
+    <section class="duo wrap">
+      <h2>Building something new, or bringing an old pool back?</h2>
+      <div class="duo__grid">
+        <a class="duo__card" href="/pool-landscape-design/-waterloo-region">
+          <img src={f('hipel-pools-mt-forest-drone-photography-1.jpg')} alt="Aerial view of a pool and landscape built by Hipel Pools" loading="lazy" />
+          <span class="duo__panel"><span class="duo__title">Design and build, from first sketch to final stone.</span><span class="textlink">See design and build</span></span>
+        </a>
+        <a class="duo__card" href="/swimming-pool-renovations-repairs/locations/kitchener-waterloo-cambridge-guelph-ontario">
+          <img src={f('existing-pool-1-1.jpeg')} alt="Inground pool renovation in Kitchener" loading="lazy" />
+          <span class="duo__panel"><span class="duo__title">Renovations and new liners for the pool you already have.</span><span class="textlink">See renovations</span></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="extras">
+      <div class="wrap">
+        <h2>Finish it the way you'll use it.</h2>
+        <p class="lede">The extras that make a pool easier to own and harder to leave.</p>
+        <div class="extras__grid">
+          <img class="extras__img" src={f('382326480-862258465195540-9116572509933275594-n.jpg')} alt="Deep fiberglass pool with water features in Fergus" loading="lazy" />
+          <ul class="extras__list">
+            {extras.map((e) => (
+              <li>
+                <a class="extra" href={e.href}>
+                  <svg class="extra__icon" viewBox="0 0 32 32" aria-hidden="true" set:html={icons[e.icon]} />
+                  <span><span class="extra__title">{e.title}</span><span class="extra__text">{e.text}</span></span>
+                  <span class="arrow" aria-hidden="true"></span>
+                </a>
+              </li>
+            ))}
+            <li class="start">
+              <h3>Ready to start your project?</h3>
+              <ul class="checks">
+                <li>Talk through your yard, ideas and budget</li>
+                <li>Get a detailed, itemized quote</li>
+                <li>Learn about financing options</li>
+              </ul>
+              <a class="btn" href={quote}>Request a quote</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner">
+      <img src={f('046a0242.jpg')} alt="" loading="lazy" />
+      <div class="banner__shade"></div>
+      <div class="wrap banner__in">
+        <h2>Family owned in Kitchener.</h2>
+        <p>Brothers Kadison and Jayden Hipel lead every build, with Jennifer running the office.</p>
+        <a class="btn btn--light" href="/company/about-us">Meet the team</a>
+      </div>
+    </section>
+
+    <section class="reviews wrap" aria-labelledby="reviews-h">
+      <h2 id="reviews-h">What homeowners say.</h2>
+      <p class="stars"><span aria-hidden="true">★★★★★</span> 5-star rating on Google</p>
+      <div class="reviews__grid">
+        {reviews.map((r) => (
+          <figure class="review">
+            <blockquote>{r.text}</blockquote>
+            <figcaption>{r.name}, {r.town}</figcaption>
+          </figure>
+        ))}
+      </div>
+    </section>
+
+    <section class="guides" aria-labelledby="guides-h">
+      <div class="wrap">
+        <div class="guides__head">
+          <h2 id="guides-h">Answers before you dig.</h2>
+          <div class="guides__nav">
+            <button class="round" aria-label="Previous guides" data-scroll="-1"><span class="arrow arrow--left"></span></button>
+            <button class="round" aria-label="More guides" data-scroll="1"><span class="arrow"></span></button>
+          </div>
+        </div>
+      </div>
+      <div class="guides__track" data-track>
+        {guides.map((p) => (
+          <a class="guide" href={href(p.path, 'blog')}>
+            <img src={href(p.listImage || p.featuredImage || '', 'main')} alt="" loading="lazy" />
+            <span class="guide__body"><span class="guide__title">{p.heading}</span><span class="guide__meta">{readingMinutes(p.html)} min read</span></span>
+            <span class="plus" aria-hidden="true"></span>
+          </a>
+        ))}
+      </div>
+    </section>
+  </main>
+
+  <footer class="ft">
+    <div class="wrap ft__top">
+      <div class="ft__brand">
+        <img src={f('imported-sitepage-images/hipel-logo-clear-white-1.svg')} alt="Hipel Pools" width="170" height="73" loading="lazy" />
+        <p>{SITE.mission.replace('Our Mission: ', '')}</p>
+        <p class="ft__social">{SITE.social.map((s) => <a href={s.url} target="_blank" rel="noopener">{s.name}</a>)}</p>
+      </div>
+      <div><h3>Pools and spas</h3><a href="/fiberglass-pools/locations/kitchener">Fiberglass pools</a><a href="/vinyl-liner-pools/locations/kitchener-waterloo-cambridge-guelph-ontario">Vinyl liner pools</a><a href="/immerspa-inground-spas-ontario">Spas</a><a href="/landscapers-kitchener-waterloo">Landscaping</a></div>
+      <div><h3>Service</h3><a href="/pool-service-repair/pool-openings">Pool openings</a><a href="/pool-service/pool-closing/">Pool closings</a><a href="/pool-service-repair/weekly-pool-maintenance">Weekly maintenance</a><a href={booking} target="_blank" rel="noopener">Book service</a></div>
+      <div><h3>Company</h3><a href="/company/about-us">About us</a><a href="/company/contact-us">Contact</a><a href={href('/', 'blog')}>Blog</a></div>
+      <div><h3>Visit or call</h3><p>{SITE.address.street}<br />{SITE.address.city}, ON {SITE.address.postalCode}</p><a href={SITE.phoneHref}>{SITE.phone}</a><a href={`mailto:${SITE.email}`}>{SITE.email}</a></div>
+    </div>
+    <div class="wrap ft__legal">© {new Date().getFullYear()} Hipel Land &amp; Pool Inc.</div>
+  </footer>
+
+  <script>
+    const burger = document.querySelector<HTMLButtonElement>('[data-burger]');
+    burger?.addEventListener('click', () => {
+      const open = document.body.classList.toggle('menu-open');
+      burger.setAttribute('aria-expanded', String(open));
+    });
+    document.querySelectorAll<HTMLButtonElement>('.hd__item > button').forEach((b) =>
+      b.addEventListener('click', () => {
+        const open = b.parentElement!.classList.toggle('is-open');
+        b.setAttribute('aria-expanded', String(open));
+      })
+    );
+    const hd = document.querySelector('[data-hd]');
+    const onScroll = () => hd?.classList.toggle('hd--solid', window.scrollY > 40);
+    window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
+    const track = document.querySelector<HTMLElement>('[data-track]');
+    document.querySelectorAll<HTMLButtonElement>('[data-scroll]').forEach((b) =>
+      b.addEventListener('click', () => track?.scrollBy({ left: Number(b.dataset.scroll) * track.clientWidth * 0.8, behavior: 'smooth' }))
+    );
+  </script>
+</body>
+</html>
+
+<style is:global>
+  :root {
+    --limestone: #eceeea;
+    --stone-deep: #e1e4df;
+    --teal: #016e8f;
+    --teal-deep: #0a4a5c;
+    --shallow: #d6edf0;
+    --ink: #17252b;
+    --serif: 'Young Serif', Georgia, serif;
+    --sans: 'Roboto', Arial, sans-serif;
+    --r-lg: 14px;
+    --r-sm: 8px;
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  body { margin: 0; background: var(--limestone); color: var(--ink); font: 17px/1.65 var(--sans); }
+  img { display: block; max-width: 100%; }
+  a { color: inherit; }
+  :focus-visible { outline: 3px solid #5fd3e3; outline-offset: 3px; }
+  h1, h2, h3 { font-family: var(--serif); font-weight: 400; color: var(--teal-deep); margin: 0; letter-spacing: -0.01em; }
+  h2 { font-size: clamp(2rem, 1.3rem + 2.4vw, 3.1rem); line-height: 1.12; max-width: 20ch; }
+  .wrap { width: min(1200px, 100% - 48px); margin-inline: auto; }
+  .lede { max-width: 58ch; margin: 18px 0 0; font-size: 1.1rem; color: #3b4a50; }
+
+  .mock-note { background: #fff6cf; color: #4a3d00; text-align: center; font-size: 14px; padding: 8px 16px; position: relative; z-index: 60; }
+  .mock-note a { font-weight: 700; }
+
+  /* buttons */
+  .btn {
+    display: inline-flex; align-items: center; min-height: 48px; padding: 0 26px; border-radius: 999px;
+    background: var(--teal); color: #fff; font-weight: 700; font-size: 15px; text-decoration: none; border: 2px solid var(--teal);
+    transition: background-color .2s, color .2s;
+  }
+  .btn:hover { background: var(--teal-deep); border-color: var(--teal-deep); }
+  .btn--light { background: #fff; color: var(--teal); border-color: #fff; }
+  .btn--light:hover { background: var(--shallow); border-color: var(--shallow); color: var(--teal-deep); }
+  .btn--ghost { background: transparent; border-color: #fff; color: #fff; }
+  .btn--ghost:hover { background: #fff; color: var(--teal); border-color: #fff; }
+  .textlink { font-weight: 700; color: var(--teal); }
+  .plus, .arrow { position: relative; display: inline-block; }
+  .plus { width: 44px; height: 44px; border-radius: 50%; background: #fff; flex: none; }
+  .plus::before, .plus::after { content: ''; position: absolute; left: 50%; top: 50%; width: 16px; height: 2px; background: var(--teal); transform: translate(-50%, -50%); }
+  .plus::after { transform: translate(-50%, -50%) rotate(90deg); }
+  .arrow { width: 44px; height: 44px; border-radius: 50%; background: var(--shallow); flex: none; }
+  .arrow::before { content: ''; position: absolute; left: 50%; top: 50%; width: 10px; height: 10px; border: solid var(--teal); border-width: 2px 2px 0 0; transform: translate(-65%, -50%) rotate(45deg); }
+  .arrow--left::before { transform: translate(-35%, -50%) rotate(-135deg); }
+
+  /* header: transparent over the hero, solid once scrolled */
+  .hd { position: fixed; top: 36px; left: 0; right: 0; z-index: 50; color: #fff; transition: background-color .25s, top .25s; }
+  .hd--solid { top: 0; background: var(--teal-deep); }
+  .hd__util { font-size: 13px; background: rgba(0, 0, 0, .25); }
+  .hd--solid .hd__util { display: none; }
+  .hd__util-in { display: flex; justify-content: space-between; gap: 16px; padding: 7px 0; }
+  .hd__util nav { display: flex; gap: 22px; }
+  .hd__util a { text-decoration: none; font-weight: 500; }
+  .hd__main { display: flex; align-items: center; gap: 28px; height: 78px; }
+  .hd__logo img { width: 116px; height: auto; }
+  .hd__nav { display: flex; gap: 6px; margin-left: 24px; }
+  .hd__item { position: relative; }
+  .hd__item > a, .hd__item > button { display: block; padding: 10px 12px; font: 500 16px var(--sans); color: #fff; text-decoration: none; background: none; border: 0; cursor: pointer; }
+  .hd__menu {
+    position: absolute; top: 100%; left: 0; min-width: 250px; padding: 10px; background: #fff; border-radius: var(--r-sm);
+    box-shadow: 0 18px 40px rgba(10, 74, 92, .18); display: none;
+  }
+  .hd__menu a { display: block; padding: 9px 12px; border-radius: 6px; color: var(--ink); text-decoration: none; font-size: 15px; }
+  .hd__menu a:hover { background: var(--limestone); }
+  .hd__item:hover .hd__menu, .hd__item:focus-within .hd__menu, .hd__item.is-open .hd__menu { display: block; }
+  .hd__cta { margin-left: auto; }
+  .hd__burger { display: none; margin-left: auto; width: 44px; height: 44px; background: none; border: 0; padding: 12px 10px; cursor: pointer; }
+  .hd__burger span { display: block; height: 2px; background: #fff; margin: 6px 0; }
+  @media (max-width: 1020px) {
+    .hd__nav { display: none; }
+    .hd__cta { display: none; }
+    .hd__burger { display: block; }
+    body.menu-open .hd { background: var(--teal-deep); }
+    body.menu-open .hd__nav { display: flex; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; margin: 0; padding: 12px 24px 24px; background: var(--teal-deep); max-height: calc(100vh - 110px); overflow: auto; }
+    .hd__menu { position: static; box-shadow: none; background: rgba(255, 255, 255, .06); }
+    .hd__menu a { color: #fff; }
+    .hd__item:hover .hd__menu { display: none; }
+    .hd__item.is-open .hd__menu { display: block; }
+    .hd__util-in > span { display: none; }
+  }
+
+  /* hero: the one bold moment – big serif over the water, ending in a waterline */
+  .hero { position: relative; min-height: min(860px, 100vh); display: flex; align-items: flex-end; color: #fff; overflow: hidden; }
+  .hero__img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .hero__shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(10, 40, 50, .72) 0%, rgba(10, 40, 50, .35) 55%, rgba(10, 40, 50, .05) 100%); }
+  .hero__in { position: relative; padding: 220px 0 150px; }
+  .hero h1 { color: #fff; font-size: clamp(2.6rem, 1.4rem + 5vw, 5.4rem); line-height: 1.02; max-width: 13ch; }
+  .hero p { font-size: 1.2rem; max-width: 40ch; margin: 22px 0 32px; }
+  .hero__btns { display: flex; flex-wrap: wrap; gap: 14px; }
+  .hero__waterline { position: absolute; left: 0; bottom: -1px; width: 100%; height: 90px; fill: var(--limestone); }
+
+  /* intro + three portrait paths */
+  .intro { padding: 70px 0 110px; }
+  .paths { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 48px; }
+  .path { position: relative; aspect-ratio: 4 / 5; border-radius: var(--r-lg); overflow: hidden; color: #fff; text-decoration: none; display: flex; align-items: flex-end; gap: 16px; padding: 26px; }
+  .path img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .6s ease; }
+  .path::before { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0, 0, 0, 0) 40%, rgba(8, 38, 48, .85) 100%); z-index: 1; }
+  .path__body, .path .plus { position: relative; z-index: 2; }
+  .path__body { flex: 1; }
+  .path__title { display: block; font: 400 1.7rem/1.15 var(--serif); }
+  .path__text { display: block; margin-top: 8px; font-size: 15px; line-height: 1.5; opacity: .92; }
+  .path:hover img { transform: scale(1.04); }
+
+  /* feature banner */
+  .feature, .banner { position: relative; color: #fff; overflow: hidden; }
+  .feature img, .banner img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .feature__shade, .banner__shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(8, 38, 48, .8), rgba(8, 38, 48, .1) 70%); }
+  .feature__in, .banner__in { position: relative; padding: 130px 0; }
+  .feature h2, .banner h2 { color: #fff; max-width: 14ch; }
+  .feature p, .banner p { max-width: 44ch; margin: 18px 0 28px; font-size: 1.1rem; }
+
+  /* two big cards with an overlapping panel */
+  .duo { padding: 110px 0; }
+  .duo__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; margin-top: 48px; }
+  .duo__card { text-decoration: none; color: var(--ink); }
+  .duo__card img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-radius: var(--r-lg); }
+  .duo__panel { display: block; background: #fff; border-radius: var(--r-sm); margin: -70px 22px 0; position: relative; padding: 26px 28px; }
+  .duo__title { display: block; font: 400 1.55rem/1.25 var(--serif); color: var(--teal-deep); margin-bottom: 14px; }
+  .duo__card:hover .textlink { text-decoration: underline; }
+
+  /* extras list */
+  .extras { background: var(--stone-deep); padding: 110px 0; }
+  .extras__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; margin-top: 48px; align-items: start; }
+  .extras__img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: var(--r-lg); position: sticky; top: 100px; }
+  .extras__list { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+  .extra { display: flex; align-items: center; gap: 18px; background: var(--limestone); border-radius: var(--r-sm); padding: 22px 22px; text-decoration: none; }
+  .extra:hover .arrow { background: var(--teal); }
+  .extra:hover .arrow::before { border-color: #fff; }
+  .extra > span:nth-child(2) { flex: 1; }
+  .extra__icon { width: 34px; height: 34px; flex: none; fill: none; stroke: var(--teal); stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; align-self: flex-start; }
+  .extra__title { display: block; font: 400 1.35rem/1.3 var(--serif); color: var(--teal-deep); }
+  .extra__text { display: block; font-size: 15px; color: #45545a; margin-top: 4px; }
+  .start { background: var(--teal-deep); color: #fff; border-radius: var(--r-sm); padding: 30px; margin-top: 8px; }
+  .start h3 { color: #fff; font-size: 1.7rem; }
+  .checks { list-style: none; padding: 0; margin: 16px 0 24px; }
+  .checks li { position: relative; padding-left: 30px; margin: 8px 0; }
+  .checks li::before { content: ''; position: absolute; left: 4px; top: 6px; width: 7px; height: 13px; border: solid #7fe0ea; border-width: 0 2.5px 2.5px 0; transform: rotate(45deg); }
+
+  .banner__in { padding: 170px 0; }
+
+  /* reviews */
+  .reviews { padding: 110px 0 90px; }
+  .stars { margin: 14px 0 0; font-weight: 500; color: #45545a; }
+  .stars span { color: #e2a400; letter-spacing: 2px; margin-right: 6px; }
+  .reviews__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 40px; }
+  .review { margin: 0; background: #fff; border-radius: var(--r-sm); padding: 30px; display: flex; flex-direction: column; }
+  .review blockquote { margin: 0 0 20px; font: 400 1.12rem/1.6 var(--serif); color: var(--ink); flex: 1; }
+  .review figcaption { font-weight: 700; color: var(--teal); font-size: 15px; }
+
+  /* guides carousel */
+  .guides { padding: 30px 0 120px; }
+  .guides__head { display: flex; justify-content: space-between; align-items: flex-end; gap: 20px; }
+  .guides__nav { display: flex; gap: 10px; }
+  .round { border: 0; padding: 0; background: none; cursor: pointer; }
+  .round .arrow { background: #fff; }
+  .guides__track {
+    display: flex; gap: 22px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; margin-top: 40px;
+    padding-inline: max(24px, calc((100% - 1200px) / 2)); scroll-padding-inline: max(24px, calc((100% - 1200px) / 2));
+  }
+  .guides__track::-webkit-scrollbar { display: none; }
+  .guide { flex: 0 0 min(340px, 80vw); scroll-snap-align: start; position: relative; aspect-ratio: 4 / 5; border-radius: var(--r-lg); overflow: hidden; color: #fff; text-decoration: none; display: flex; align-items: flex-end; gap: 14px; padding: 24px; }
+  .guide img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .guide::before { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0, 0, 0, 0) 35%, rgba(8, 38, 48, .88) 100%); z-index: 1; }
+  .guide__body, .guide .plus { position: relative; z-index: 2; }
+  .guide__body { flex: 1; }
+  .guide__title { display: block; font: 400 1.25rem/1.3 var(--serif); }
+  .guide__meta { display: block; font-size: 14px; opacity: .85; margin-top: 6px; }
+
+  /* footer */
+  .ft { background: var(--teal-deep); color: #d9e9ec; font-size: 15px; }
+  .ft__top { display: grid; grid-template-columns: 1.6fr repeat(4, 1fr); gap: 36px; padding: 80px 0 50px; }
+  .ft h3 { font-family: var(--sans); font-weight: 700; font-size: 15px; color: #fff; margin-bottom: 14px; }
+  .ft a { display: block; text-decoration: none; margin: 6px 0; }
+  .ft a:hover { color: #fff; text-decoration: underline; }
+  .ft__brand p { max-width: 34ch; margin: 18px 0 0; }
+  .ft__social { display: flex; gap: 18px; }
+  .ft__legal { border-top: 1px solid rgba(255, 255, 255, .15); padding: 22px 0 30px; font-size: 13px; }
+
+  @media (max-width: 900px) {
+    .paths, .reviews__grid { grid-template-columns: 1fr; }
+    .path { aspect-ratio: 4 / 3; }
+    .duo__grid, .extras__grid { grid-template-columns: 1fr; }
+    .extras__img { position: static; aspect-ratio: 16 / 10; }
+    .ft__top { grid-template-columns: 1fr 1fr; }
+    .ft__brand { grid-column: 1 / -1; }
+    .hero__in { padding: 200px 0 120px; }
+    .feature__shade, .banner__shade { background: rgba(8, 38, 48, .62); }
+    .intro, .duo, .extras, .reviews { padding-top: 70px; padding-bottom: 70px; }
+  }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+</style>
