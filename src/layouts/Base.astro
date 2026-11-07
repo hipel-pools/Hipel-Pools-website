@@ -12,7 +12,7 @@ import '../styles/global.css';
 import '../styles/sections.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import { SITE, HOST, type Meta } from '../lib/content';
+import { SITE, HOST, LIVE, PREVIEW, type Meta } from '../lib/content';
 
 interface Props {
   meta: Meta;
@@ -26,6 +26,8 @@ const { meta, path, pageCss = '', bodyClass = '', needsElfsight = false } = Astr
 // Canonical: keep exactly what HubSpot declared; otherwise self-referencing.
 const canonical = meta.canonical || HOST + path;
 const abs = (u?: string | null) => (!u ? undefined : /^https?:/.test(u) ? u : SITE.mainHost + u);
+// Preview copies must never be indexed or counted in analytics.
+const robots = PREVIEW ? 'noindex, nofollow' : meta.robots;
 const ogImage = abs(meta.ogImage);
 const { gtm, ga4 } = SITE.analytics;
 ---
@@ -36,9 +38,9 @@ const { gtm, ga4 } = SITE.analytics;
     <title>{meta.title}</title>
     {meta.description && <meta name="description" content={meta.description} />}
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    {meta.robots && <meta name="robots" content={meta.robots} />}
+    {robots && <meta name="robots" content={robots} />}
     <link rel="canonical" href={canonical} />
-    <link rel="icon" href={SITE.mainHost + '/files/favicon-1.png'} />
+    <link rel="icon" href={LIVE.main + '/files/favicon-1.png'} />
     <meta property="og:title" content={meta.ogTitle || meta.title} />
     {(meta.ogDescription || meta.description) && <meta property="og:description" content={meta.ogDescription || meta.description} />}
     <meta property="og:url" content={canonical} />
@@ -52,6 +54,8 @@ const { gtm, ga4 } = SITE.analytics;
     {(meta.jsonld || []).map((d) => <script type="application/ld+json" set:html={JSON.stringify(d)} />)}
     {pageCss && <style is:inline set:html={pageCss} />}
 
+    {!PREVIEW && (
+      <Fragment>
     <!-- Google Tag Manager + GA4 (same IDs as the HubSpot site, so reporting continues uninterrupted) -->
     <script is:inline define:vars={{ gtm, ga4 }}>
       window.dataLayer = window.dataLayer || [];
@@ -60,9 +64,11 @@ const { gtm, ga4 } = SITE.analytics;
       (function(w,d,s,l,i){w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer',gtm);
     </script>
     <script async src={`https://www.googletagmanager.com/gtag/js?id=${ga4}`}></script>
+      </Fragment>
+    )}
   </head>
   <body class={bodyClass}>
-    <noscript><iframe src={`https://www.googletagmanager.com/ns.html?id=${gtm}`} height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    {!PREVIEW && <noscript><iframe src={`https://www.googletagmanager.com/ns.html?id=${gtm}`} height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>}
     <a class="skip-link" href="#main-content">Skip to content</a>
     <Header />
     <main id="main-content">

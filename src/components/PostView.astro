@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import PostCard from './PostCard.astro';
-import { posts, blogs, blogRoot, formatDate, readingMinutes, href, SITE, type Post } from '../lib/content';
+import { posts, blogs, blogRoot, formatDate, readingMinutes, href, localize, SITE, type Post } from '../lib/content';
 interface Props { post: Post }
 const { post } = Astro.props;
 
@@ -44,7 +44,7 @@ const author = blog.authors?.[post.author.slug];
   </nav>
 
   <article class="post-body hp-rich-text">
-    <Fragment set:html={post.html} />
+    <Fragment set:html={localize(post.html)} />
   </article>
 
   {post.tags.length > 0 && (

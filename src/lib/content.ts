@@ -56,11 +56,31 @@ export const POSTS_PER_PAGE = 10;
 /** Blog root path for each blog on the blog host. */
 export const blogRoot = (blog: string) => (blog === 'academy' ? '/academy' : '');
 
+/**
+ * Preview mode: before the real domains are switched over, the two sites run on Cloudflare
+ * preview addresses (e.g. https://hipelpools.pages.dev). Set SITE_MAIN_URL / SITE_BLOG_URL
+ * at build time and every link and image between the two sites points at the preview copies.
+ * Canonical tags, structured data, sitemaps and RSS always keep the real hipelpools.ca addresses.
+ */
+export const LIVE = {
+  main: (process.env.SITE_MAIN_URL || site.mainHost).replace(/\/$/, ''),
+  blog: (process.env.SITE_BLOG_URL || site.blogHost).replace(/\/$/, ''),
+};
+export const PREVIEW = LIVE.main !== site.mainHost || LIVE.blog !== site.blogHost;
+
+/** Point absolute hipelpools.ca / blog.hipelpools.ca URLs in content at the preview sites. */
+export function localize(html: string) {
+  if (!PREVIEW) return html;
+  return html
+    .replace(/https:\/\/blog\.hipelpools\.ca(?=[/"'?#\s)]|$)/g, LIVE.blog)
+    .replace(/https:\/\/(?:www\.)?hipelpools\.ca(?=[/"'?#\s)]|$)/g, LIVE.main);
+}
+
 /** Absolute URL helper for links that cross between the two hosts. */
 export function href(path: string, host: 'main' | 'blog') {
-  if (/^https?:/.test(path)) return path;
+  if (/^https?:/.test(path)) return localize(path);
   if ((host === 'blog') === (TARGET === 'blog')) return path;
-  return (host === 'blog' ? site.blogHost : site.mainHost) + path;
+  return (host === 'blog' ? LIVE.blog : LIVE.main) + path;
 }
 
 export function readingMinutes(html: string) {

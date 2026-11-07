@@ -66,6 +66,24 @@ The main site and the blog are two Cloudflare Pages projects built from this one
 
 The blog uses the images hosted on the main site, so deploy the main site first.
 
+### Preview mode (before switching domains)
+
+Add these two environment variables to **both** projects while you review the site on the
+free `*.pages.dev` addresses:
+
+| Variable | Value (use your projects' real addresses) |
+| --- | --- |
+| `SITE_MAIN_URL` | `https://hipelpools.pages.dev` |
+| `SITE_BLOG_URL` | `https://hipelpools-blog.pages.dev` |
+
+While they are set, links and images between the two sites point at the preview copies.
+Every page is marked `noindex` and `robots.txt` blocks crawlers, so Google never sees the
+preview, and Google Analytics/Tag Manager are switched off so test visits don't count.
+Canonical tags still name the real hipelpools.ca addresses.
+
+**On launch day, delete both variables and redeploy both projects.** Even after launch,
+`*.pages.dev` addresses always send a `noindex` header.
+
 ### Forms
 
 The quote form and the contact form have the same fields as the HubSpot versions. They post

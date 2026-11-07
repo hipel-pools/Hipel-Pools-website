@@ -6,7 +6,7 @@ import PostView from '../components/PostView.astro';
 import Listing from '../components/Listing.astro';
 import LeadForm from '../components/LeadForm.astro';
 import PostCard from '../components/PostCard.astro';
-import { TARGET, pages, posts, blogs, blogRoot, chunk, POSTS_PER_PAGE, type Post } from '../lib/content';
+import { TARGET, pages, posts, blogs, blogRoot, chunk, localize, POSTS_PER_PAGE, type Post } from '../lib/content';
 import listingMeta from '../data/blog-listings.json';
 
 export function getStaticPaths() {
@@ -69,7 +69,7 @@ const lm = (listingMeta as Record<string, any>)[path];
 {props.kind === 'page' && (
   <Base meta={props.page.meta} path={props.page.path} pageCss={props.page.css} needsElfsight={props.page.html.includes('elfsight-app')}>
     {parts.map((part) =>
-      'html' in part ? <Fragment set:html={part.html} /> :
+      'html' in part ? <Fragment set:html={localize(part.html)} /> :
       'form' in part ? <LeadForm kind={part.form} /> :
       <div class="post-grid post-grid--embedded">{latest.map((p) => <PostCard post={p} headingLevel="h3" />)}</div>
     )}
