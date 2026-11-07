@@ -1,0 +1,49 @@
+{
+ "main": {
+  "tags": {
+   "cost-pricing": "Cost & Pricing",
+   "fiberglass-pool-maintenance": "Fiberglass Pool Maintenance",
+   "hot-tub-pool-combos": "Hot Tub Pool Combos",
+   "inground-pools": "Inground Pools",
+   "pool-covers": "Pool Covers",
+   "pool-equipment": "Pool Equipment",
+   "pool-options": "Pool Options",
+   "pool-types": "Pool Types",
+   "reviews-ratings": "Reviews & Ratings",
+   "small-inground-pools": "Small Inground Pools",
+   "uncategorized": "Uncategorized",
+   "water-chemistry": "Water Chemistry"
+  },
+  "title": "Hipel Pools Blog",
+  "description": "Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+  "hero": "/files/aqua-01-1.jpg",
+  "heading": "Blog",
+  "heroOverlay": "background-color: rgba(1, 110, 143, 0.7)",
+  "authors": {
+   "kadison-hipel": {
+    "title": "Hipel Pools Blog | Kadison Hipel",
+    "description": "Kadison is the President and Founder of Hipel Pools, a swimming pool builder based in Kitchener, Ontario. With active participation in well over 100 pool builds and thousands of service calls Kadison is well versed in all things pools.",
+    "name": "Kadison Hipel"
+   }
+  }
+ },
+ "academy": {
+  "tags": {
+   "pool-covers": "Pool Covers",
+   "pool-equipment": "Pool Equipment",
+   "water-chemistry": "Water Chemistry"
+  },
+  "title": "Hipel Pools - Academy",
+  "description": "DIY Pool Care",
+  "hero": null,
+  "heading": "Hipel Pools - Academy",
+  "heroOverlay": null,
+  "authors": {
+   "kadison-hipel": {
+    "title": "Hipel Pools - Academy | Kadison Hipel",
+    "description": "Kadison is the President and Founder of Hipel Pools, a swimming pool builder based in Kitchener, Ontario. With active participation in well over 100 pool builds and thousands of service calls Kadison is well versed in all things pools.",
+    "name": "Kadison Hipel"
+   }
+  }
+ }
+}

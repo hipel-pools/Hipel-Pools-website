@@ -1,0 +1,1067 @@
+{
+ "/": {
+  "url": "https://blog.hipelpools.ca/",
+  "meta": {
+   "title": "Hipel Pools Blog",
+   "description": "Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "canonical": null,
+   "robots": null,
+   "ogTitle": "Hipel Pools Blog",
+   "ogDescription": "Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "ogImage": null,
+   "ogType": "blog",
+   "twitterCard": "summary",
+   "lang": "en",
+   "prev": null,
+   "next": "https://blog.hipelpools.ca/page/2",
+   "jsonld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "Hipel Pools",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://hipelpools.ca/files/hipel-logo-clear-500-x-214-clear-background.png"
+     },
+     "email": "sales@hipelpools.ca",
+     "url": "https://blog.hipelpools.ca",
+     "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Canada",
+      "addressRegion": "Ontario",
+      "addressLocality": "Kitchener",
+      "postalCode": "N2C 1K9",
+      "streetAddress": "43 Manitou Dr"
+     },
+     "telephone": "(519)-997-2434",
+     "knowsLanguage": "en"
+    },
+    {
+     "@context": "https://schema.org",
+     "@type": "VideoObject",
+     "contentUrl": "https://stream.mux.com/gXif00Cfk0089AsZXisiKqk01Jl01NYw77bRsYW9fcKeNmc/capped-1080p.mp4",
+     "dateModified": "2025-02-01T17:15:45.005Z",
+     "description": "Pool Opening Service In Ontario. Explore How Our Pool Openings Work How Easy They Are To Book On Our Website &amp; What Our Pool Openings Include",
+     "duration": "PT2M16.262S",
+     "height": 2160,
+     "name": "Pool Opening Service Highlight: Hipel Pools",
+     "thumbnailUrl": "https://hipelpools.ca/files/pool-opening-service-highlight-hipel-pools-medium.jpg",
+     "uploadDate": "2025-02-01T17:08:15.885Z",
+     "width": 3840
+    }
+   ]
+  }
+ },
+ "/academy": {
+  "url": "https://blog.hipelpools.ca/academy",
+  "meta": {
+   "title": "Hipel Pools - Academy",
+   "description": "DIY Pool Care",
+   "canonical": null,
+   "robots": null,
+   "ogTitle": "Hipel Pools - Academy",
+   "ogDescription": "DIY Pool Care",
+   "ogImage": null,
+   "ogType": "blog",
+   "twitterCard": "summary",
+   "lang": "en",
+   "prev": null,
+   "next": null,
+   "jsonld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "Hipel Pools",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://hipelpools.ca/files/hipel-logo-clear-500-x-214-clear-background.png"
+     },
+     "email": "sales@hipelpools.ca",
+     "url": "https://blog.hipelpools.ca/academy",
+     "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Canada",
+      "addressRegion": "Ontario",
+      "addressLocality": "Kitchener",
+      "postalCode": "N2C 1K9",
+      "streetAddress": "43 Manitou Dr"
+     },
+     "telephone": "(519)-997-2434",
+     "knowsLanguage": "en"
+    }
+   ]
+  }
+ },
+ "/academy/author/kadison-hipel": {
+  "url": "https://blog.hipelpools.ca/academy/author/kadison-hipel",
+  "meta": {
+   "title": "Hipel Pools - Academy | Kadison Hipel",
+   "description": "Kadison is the President and Founder of Hipel Pools, a swimming pool builder based in Kitchener, Ontario. With active participation in well over 100 pool builds and thousands of service calls Kadison is well versed in all things pools.",
+   "canonical": null,
+   "robots": null,
+   "ogTitle": "Hipel Pools - Academy | Kadison Hipel",
+   "ogDescription": "Kadison is the President and Founder of Hipel Pools, a swimming pool builder based in Kitchener, Ontario. With active participation in well over 100 pool builds and thousands of service calls Kadison is well versed in all things pools.",
+   "ogImage": null,
+   "ogType": "blog",
+   "twitterCard": "summary",
+   "lang": "en",
+   "prev": null,
+   "next": null,
+   "jsonld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "Hipel Pools",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://hipelpools.ca/files/hipel-logo-clear-500-x-214-clear-background.png"
+     },
+     "email": "sales@hipelpools.ca",
+     "url": "https://blog.hipelpools.ca/academy/author/kadison-hipel",
+     "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Canada",
+      "addressRegion": "Ontario",
+      "addressLocality": "Kitchener",
+      "postalCode": "N2C 1K9",
+      "streetAddress": "43 Manitou Dr"
+     },
+     "telephone": "(519)-997-2434",
+     "knowsLanguage": "en"
+    }
+   ]
+  }
+ },
+ "/academy/tag/pool-covers": {
+  "url": "https://blog.hipelpools.ca/academy/tag/pool-covers",
+  "meta": {
+   "title": "Hipel Pools - Academy | Pool Covers",
+   "description": "Pool Covers | DIY Pool Care",
+   "canonical": null,
+   "robots": null,
+   "ogTitle": "Hipel Pools - Academy | Pool Covers",
+   "ogDescription": "Pool Covers | DIY Pool Care",
+   "ogImage": null,
+   "ogType": "blog",
+   "twitterCard": "summary",
+   "lang": "en",
+   "prev": null,
+   "next": null,
+   "jsonld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "Hipel Pools",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://hipelpools.ca/files/hipel-logo-clear-500-x-214-clear-background.png"
+     },
+     "email": "sales@hipelpools.ca",
+     "url": "https://blog.hipelpools.ca/academy/tag/pool-covers",
+     "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Canada",
+      "addressRegion": "Ontario",
+      "addressLocality": "Kitchener",
+      "postalCode": "N2C 1K9",
+      "streetAddress": "43 Manitou Dr"
+     },
+     "telephone": "(519)-997-2434",
+     "knowsLanguage": "en"
+    }
+   ]
+  }
+ },
+ "/academy/tag/pool-equipment": {
+  "url": "https://blog.hipelpools.ca/academy/tag/pool-equipment",
+  "meta": {
+   "title": "Hipel Pools - Academy | Pool Equipment",
+   "description": "Pool Equipment | DIY Pool Care",
+   "canonical": null,
+   "robots": null,
+   "ogTitle": "Hipel Pools - Academy | Pool Equipment",
+   "ogDescription": "Pool Equipment | DIY Pool Care",
+   "ogImage": null,
+   "ogType": "blog",
+   "twitterCard": "summary",
+   "lang": "en",
+   "prev": null,
+   "next": null,
+   "jsonld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "Hipel Pools",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://hipelpools.ca/files/hipel-logo-clear-500-x-214-clear-background.png"
+     },
+     "email": "sales@hipelpools.ca",
+     "url": "https://blog.hipelpools.ca/academy/tag/pool-equipment",
+     "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Canada",
+      "addressRegion": "Ontario",
+      "addressLocality": "Kitchener",
+      "postalCode": "N2C 1K9",
+      "streetAddress": "43 Manitou Dr"
+     },
+     "telephone": "(519)-997-2434",
+     "knowsLanguage": "en"
+    }
+   ]
+  }
+ },
+ "/academy/tag/water-chemistry": {
+  "url": "https://blog.hipelpools.ca/academy/tag/water-chemistry",
+  "meta": {
+   "title": "Hipel Pools - Academy | Water Chemistry",
+   "description": "Water Chemistry | DIY Pool Care",
+   "canonical": null,
+   "robots": null,
+   "ogTitle": "Hipel Pools - Academy | Water Chemistry",
+   "ogDescription": "Water Chemistry | DIY Pool Care",
+   "ogImage": null,
+   "ogType": "blog",
+   "twitterCard": "summary",
+   "lang": "en",
+   "prev": null,
+   "next": null,
+   "jsonld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "Hipel Pools",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://hipelpools.ca/files/hipel-logo-clear-500-x-214-clear-background.png"
+     },
+     "email": "sales@hipelpools.ca",
+     "url": "https://blog.hipelpools.ca/academy/tag/water-chemistry",
+     "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Canada",
+      "addressRegion": "Ontario",
+      "addressLocality": "Kitchener",
+      "postalCode": "N2C 1K9",
+      "streetAddress": "43 Manitou Dr"
+     },
+     "telephone": "(519)-997-2434",
+     "knowsLanguage": "en"
+    }
+   ]
+  }
+ },
+ "/author/kadison-hipel": {
+  "url": "https://blog.hipelpools.ca/author/kadison-hipel",
+  "meta": {
+   "title": "Hipel Pools Blog | Kadison Hipel",
+   "description": "Kadison is the President and Founder of Hipel Pools, a swimming pool builder based in Kitchener, Ontario. With active participation in well over 100 pool builds and thousands of service calls Kadison is well versed in all things pools.",
+   "canonical": null,
+   "robots": null,
+   "ogTitle": "Hipel Pools Blog | Kadison Hipel",
+   "ogDescription": "Kadison is the President and Founder of Hipel Pools, a swimming pool builder based in Kitchener, Ontario. With active participation in well over 100 pool builds and thousands of service calls Kadison is well versed in all things pools.",
+   "ogImage": null,
+   "ogType": "blog",
+   "twitterCard": "summary",
+   "lang": "en",
+   "prev": null,
+   "next": "https://blog.hipelpools.ca/author/kadison-hipel/page/2",
+   "jsonld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "Hipel Pools",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://hipelpools.ca/files/hipel-logo-clear-500-x-214-clear-background.png"
+     },
+     "email": "sales@hipelpools.ca",
+     "url": "https://blog.hipelpools.ca/author/kadison-hipel",
+     "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Canada",
+      "addressRegion": "Ontario",
+      "addressLocality": "Kitchener",
+      "postalCode": "N2C 1K9",
+      "streetAddress": "43 Manitou Dr"
+     },
+     "telephone": "(519)-997-2434",
+     "knowsLanguage": "en"
+    },
+    {
+     "@context": "https://schema.org",
+     "@type": "VideoObject",
+     "contentUrl": "https://stream.mux.com/gXif00Cfk0089AsZXisiKqk01Jl01NYw77bRsYW9fcKeNmc/capped-1080p.mp4",
+     "dateModified": "2025-02-01T17:15:45.005Z",
+     "description": "Pool Opening Service In Ontario. Explore How Our Pool Openings Work How Easy They Are To Book On Our Website &amp; What Our Pool Openings Include",
+     "duration": "PT2M16.262S",
+     "height": 2160,
+     "name": "Pool Opening Service Highlight: Hipel Pools",
+     "thumbnailUrl": "https://hipelpools.ca/files/pool-opening-service-highlight-hipel-pools-medium.jpg",
+     "uploadDate": "2025-02-01T17:08:15.885Z",
+     "width": 3840
+    }
+   ]
+  }
+ },
+ "/author/kadison-hipel/page/1": {
+  "url": "https://blog.hipelpools.ca/author/kadison-hipel/page/1",
+  "meta": {
+   "title": "Hipel Pools Blog | Kadison Hipel",
+   "description": "Kadison is the President and Founder of Hipel Pools, a swimming pool builder based in Kitchener, Ontario. With active participation in well over 100 pool builds and thousands of service calls Kadison is well versed in all things pools.",
+   "canonical": null,
+   "robots": null,
+   "ogTitle": "Hipel Pools Blog | Kadison Hipel",
+   "ogDescription": "Kadison is the President and Founder of Hipel Pools, a swimming pool builder based in Kitchener, Ontario. With active participation in well over 100 pool builds and thousands of service calls Kadison is well versed in all things pools.",
+   "ogImage": null,
+   "ogType": "blog",
+   "twitterCard": "summary",
+   "lang": "en",
+   "prev": null,
+   "next": "https://blog.hipelpools.ca/author/kadison-hipel/page/2",
+   "jsonld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "Hipel Pools",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://hipelpools.ca/files/hipel-logo-clear-500-x-214-clear-background.png"
+     },
+     "email": "sales@hipelpools.ca",
+     "url": "https://blog.hipelpools.ca/author/kadison-hipel/page/1",
+     "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Canada",
+      "addressRegion": "Ontario",
+      "addressLocality": "Kitchener",
+      "postalCode": "N2C 1K9",
+      "streetAddress": "43 Manitou Dr"
+     },
+     "telephone": "(519)-997-2434",
+     "knowsLanguage": "en"
+    },
+    {
+     "@context": "https://schema.org",
+     "@type": "VideoObject",
+     "contentUrl": "https://stream.mux.com/gXif00Cfk0089AsZXisiKqk01Jl01NYw77bRsYW9fcKeNmc/capped-1080p.mp4",
+     "dateModified": "2025-02-01T17:15:45.005Z",
+     "description": "Pool Opening Service In Ontario. Explore How Our Pool Openings Work How Easy They Are To Book On Our Website &amp; What Our Pool Openings Include",
+     "duration": "PT2M16.262S",
+     "height": 2160,
+     "name": "Pool Opening Service Highlight: Hipel Pools",
+     "thumbnailUrl": "https://hipelpools.ca/files/pool-opening-service-highlight-hipel-pools-medium.jpg",
+     "uploadDate": "2025-02-01T17:08:15.885Z",
+     "width": 3840
+    }
+   ]
+  }
+ },
+ "/author/kadison-hipel/page/2": {
+  "url": "https://blog.hipelpools.ca/author/kadison-hipel/page/2",
+  "meta": {
+   "title": "Hipel Pools Blog | Kadison Hipel (2)",
+   "description": "Kadison is the President and Founder of Hipel Pools, a swimming pool builder based in Kitchener, Ontario. With active participation in well over 100 pool builds and thousands of service calls Kadison is well versed in all things pools. (2)",
+   "canonical": null,
+   "robots": null,
+   "ogTitle": "Hipel Pools Blog | Kadison Hipel (2)",
+   "ogDescription": "Kadison is the President and Founder of Hipel Pools, a swimming pool builder based in Kitchener, Ontario. With active participation in well over 100 pool builds and thousands of service calls Kadison is well versed in all things pools. (2)",
+   "ogImage": null,
+   "ogType": "blog",
+   "twitterCard": "summary",
+   "lang": "en",
+   "prev": "https://blog.hipelpools.ca/author/kadison-hipel/page/1",
+   "next": "https://blog.hipelpools.ca/author/kadison-hipel/page/3",
+   "jsonld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "Hipel Pools",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://hipelpools.ca/files/hipel-logo-clear-500-x-214-clear-background.png"
+     },
+     "email": "sales@hipelpools.ca",
+     "url": "https://blog.hipelpools.ca/author/kadison-hipel/page/2",
+     "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Canada",
+      "addressRegion": "Ontario",
+      "addressLocality": "Kitchener",
+      "postalCode": "N2C 1K9",
+      "streetAddress": "43 Manitou Dr"
+     },
+     "telephone": "(519)-997-2434",
+     "knowsLanguage": "en"
+    }
+   ]
+  }
+ },
+ "/author/kadison-hipel/page/3": {
+  "url": "https://blog.hipelpools.ca/author/kadison-hipel/page/3",
+  "meta": {
+   "title": "Hipel Pools Blog | Kadison Hipel (3)",
+   "description": "Kadison is the President and Founder of Hipel Pools, a swimming pool builder based in Kitchener, Ontario. With active participation in well over 100 pool builds and thousands of service calls Kadison is well versed in all things pools. (3)",
+   "canonical": null,
+   "robots": null,
+   "ogTitle": "Hipel Pools Blog | Kadison Hipel (3)",
+   "ogDescription": "Kadison is the President and Founder of Hipel Pools, a swimming pool builder based in Kitchener, Ontario. With active participation in well over 100 pool builds and thousands of service calls Kadison is well versed in all things pools. (3)",
+   "ogImage": null,
+   "ogType": "blog",
+   "twitterCard": "summary",
+   "lang": "en",
+   "prev": "https://blog.hipelpools.ca/author/kadison-hipel/page/2",
+   "next": null,
+   "jsonld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "Hipel Pools",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://hipelpools.ca/files/hipel-logo-clear-500-x-214-clear-background.png"
+     },
+     "email": "sales@hipelpools.ca",
+     "url": "https://blog.hipelpools.ca/author/kadison-hipel/page/3",
+     "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Canada",
+      "addressRegion": "Ontario",
+      "addressLocality": "Kitchener",
+      "postalCode": "N2C 1K9",
+      "streetAddress": "43 Manitou Dr"
+     },
+     "telephone": "(519)-997-2434",
+     "knowsLanguage": "en"
+    }
+   ]
+  }
+ },
+ "/page/1": {
+  "url": "https://blog.hipelpools.ca/page/1",
+  "meta": {
+   "title": "Hipel Pools Blog",
+   "description": "Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "canonical": null,
+   "robots": null,
+   "ogTitle": "Hipel Pools Blog",
+   "ogDescription": "Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "ogImage": null,
+   "ogType": "blog",
+   "twitterCard": "summary",
+   "lang": "en",
+   "prev": null,
+   "next": "https://blog.hipelpools.ca/page/2",
+   "jsonld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "Hipel Pools",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://hipelpools.ca/files/hipel-logo-clear-500-x-214-clear-background.png"
+     },
+     "email": "sales@hipelpools.ca",
+     "url": "https://blog.hipelpools.ca/page/1",
+     "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Canada",
+      "addressRegion": "Ontario",
+      "addressLocality": "Kitchener",
+      "postalCode": "N2C 1K9",
+      "streetAddress": "43 Manitou Dr"
+     },
+     "telephone": "(519)-997-2434",
+     "knowsLanguage": "en"
+    },
+    {
+     "@context": "https://schema.org",
+     "@type": "VideoObject",
+     "contentUrl": "https://stream.mux.com/gXif00Cfk0089AsZXisiKqk01Jl01NYw77bRsYW9fcKeNmc/capped-1080p.mp4",
+     "dateModified": "2025-02-01T17:15:45.005Z",
+     "description": "Pool Opening Service In Ontario. Explore How Our Pool Openings Work How Easy They Are To Book On Our Website &amp; What Our Pool Openings Include",
+     "duration": "PT2M16.262S",
+     "height": 2160,
+     "name": "Pool Opening Service Highlight: Hipel Pools",
+     "thumbnailUrl": "https://hipelpools.ca/files/pool-opening-service-highlight-hipel-pools-medium.jpg",
+     "uploadDate": "2025-02-01T17:08:15.885Z",
+     "width": 3840
+    }
+   ]
+  }
+ },
+ "/page/2": {
+  "url": "https://blog.hipelpools.ca/page/2",
+  "meta": {
+   "title": "Hipel Pools Blog (2)",
+   "description": "Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada.  (2)",
+   "canonical": null,
+   "robots": null,
+   "ogTitle": "Hipel Pools Blog (2)",
+   "ogDescription": "Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada.  (2)",
+   "ogImage": null,
+   "ogType": "blog",
+   "twitterCard": "summary",
+   "lang": "en",
+   "prev": "https://blog.hipelpools.ca/page/1",
+   "next": "https://blog.hipelpools.ca/page/3",
+   "jsonld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "Hipel Pools",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://hipelpools.ca/files/hipel-logo-clear-500-x-214-clear-background.png"
+     },
+     "email": "sales@hipelpools.ca",
+     "url": "https://blog.hipelpools.ca/page/2",
+     "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Canada",
+      "addressRegion": "Ontario",
+      "addressLocality": "Kitchener",
+      "postalCode": "N2C 1K9",
+      "streetAddress": "43 Manitou Dr"
+     },
+     "telephone": "(519)-997-2434",
+     "knowsLanguage": "en"
+    }
+   ]
+  }
+ },
+ "/page/3": {
+  "url": "https://blog.hipelpools.ca/page/3",
+  "meta": {
+   "title": "Hipel Pools Blog (3)",
+   "description": "Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada.  (3)",
+   "canonical": null,
+   "robots": null,
+   "ogTitle": "Hipel Pools Blog (3)",
+   "ogDescription": "Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada.  (3)",
+   "ogImage": null,
+   "ogType": "blog",
+   "twitterCard": "summary",
+   "lang": "en",
+   "prev": "https://blog.hipelpools.ca/page/2",
+   "next": null,
+   "jsonld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "Hipel Pools",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://hipelpools.ca/files/hipel-logo-clear-500-x-214-clear-background.png"
+     },
+     "email": "sales@hipelpools.ca",
+     "url": "https://blog.hipelpools.ca/page/3",
+     "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Canada",
+      "addressRegion": "Ontario",
+      "addressLocality": "Kitchener",
+      "postalCode": "N2C 1K9",
+      "streetAddress": "43 Manitou Dr"
+     },
+     "telephone": "(519)-997-2434",
+     "knowsLanguage": "en"
+    }
+   ]
+  }
+ },
+ "/tag/cost-pricing": {
+  "url": "https://blog.hipelpools.ca/tag/cost-pricing",
+  "meta": {
+   "title": "Hipel Pools Blog | Cost & Pricing",
+   "description": "Cost & Pricing | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "canonical": null,
+   "robots": null,
+   "ogTitle": "Hipel Pools Blog | Cost & Pricing",
+   "ogDescription": "Cost & Pricing | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "ogImage": null,
+   "ogType": "blog",
+   "twitterCard": "summary",
+   "lang": "en",
+   "prev": null,
+   "next": null,
+   "jsonld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "Hipel Pools",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://hipelpools.ca/files/hipel-logo-clear-500-x-214-clear-background.png"
+     },
+     "email": "sales@hipelpools.ca",
+     "url": "https://blog.hipelpools.ca/tag/cost-pricing",
+     "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Canada",
+      "addressRegion": "Ontario",
+      "addressLocality": "Kitchener",
+      "postalCode": "N2C 1K9",
+      "streetAddress": "43 Manitou Dr"
+     },
+     "telephone": "(519)-997-2434",
+     "knowsLanguage": "en"
+    }
+   ]
+  }
+ },
+ "/tag/fiberglass-pool-maintenance": {
+  "url": "https://blog.hipelpools.ca/tag/fiberglass-pool-maintenance",
+  "meta": {
+   "title": "Hipel Pools Blog | Fiberglass Pool Maintenance",
+   "description": "Fiberglass Pool Maintenance | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "canonical": null,
+   "robots": null,
+   "ogTitle": "Hipel Pools Blog | Fiberglass Pool Maintenance",
+   "ogDescription": "Fiberglass Pool Maintenance | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "ogImage": null,
+   "ogType": "blog",
+   "twitterCard": "summary",
+   "lang": "en",
+   "prev": null,
+   "next": null,
+   "jsonld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "Hipel Pools",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://hipelpools.ca/files/hipel-logo-clear-500-x-214-clear-background.png"
+     },
+     "email": "sales@hipelpools.ca",
+     "url": "https://blog.hipelpools.ca/tag/fiberglass-pool-maintenance",
+     "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Canada",
+      "addressRegion": "Ontario",
+      "addressLocality": "Kitchener",
+      "postalCode": "N2C 1K9",
+      "streetAddress": "43 Manitou Dr"
+     },
+     "telephone": "(519)-997-2434",
+     "knowsLanguage": "en"
+    }
+   ]
+  }
+ },
+ "/tag/hot-tub-pool-combos": {
+  "url": "https://blog.hipelpools.ca/tag/hot-tub-pool-combos",
+  "meta": {
+   "title": "Hipel Pools Blog | Hot Tub Pool Combos",
+   "description": "Hot Tub Pool Combos | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "canonical": null,
+   "robots": null,
+   "ogTitle": "Hipel Pools Blog | Hot Tub Pool Combos",
+   "ogDescription": "Hot Tub Pool Combos | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "ogImage": null,
+   "ogType": "blog",
+   "twitterCard": "summary",
+   "lang": "en",
+   "prev": null,
+   "next": null,
+   "jsonld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "Hipel Pools",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://hipelpools.ca/files/hipel-logo-clear-500-x-214-clear-background.png"
+     },
+     "email": "sales@hipelpools.ca",
+     "url": "https://blog.hipelpools.ca/tag/hot-tub-pool-combos",
+     "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Canada",
+      "addressRegion": "Ontario",
+      "addressLocality": "Kitchener",
+      "postalCode": "N2C 1K9",
+      "streetAddress": "43 Manitou Dr"
+     },
+     "telephone": "(519)-997-2434",
+     "knowsLanguage": "en"
+    }
+   ]
+  }
+ },
+ "/tag/inground-pools": {
+  "url": "https://blog.hipelpools.ca/tag/inground-pools",
+  "meta": {
+   "title": "Hipel Pools Blog | Inground Pools",
+   "description": "Inground Pools | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "canonical": null,
+   "robots": null,
+   "ogTitle": "Hipel Pools Blog | Inground Pools",
+   "ogDescription": "Inground Pools | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "ogImage": null,
+   "ogType": "blog",
+   "twitterCard": "summary",
+   "lang": "en",
+   "prev": null,
+   "next": null,
+   "jsonld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "Hipel Pools",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://hipelpools.ca/files/hipel-logo-clear-500-x-214-clear-background.png"
+     },
+     "email": "sales@hipelpools.ca",
+     "url": "https://blog.hipelpools.ca/tag/inground-pools",
+     "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Canada",
+      "addressRegion": "Ontario",
+      "addressLocality": "Kitchener",
+      "postalCode": "N2C 1K9",
+      "streetAddress": "43 Manitou Dr"
+     },
+     "telephone": "(519)-997-2434",
+     "knowsLanguage": "en"
+    }
+   ]
+  }
+ },
+ "/tag/pool-covers": {
+  "url": "https://blog.hipelpools.ca/tag/pool-covers",
+  "meta": {
+   "title": "Hipel Pools Blog | Pool Covers",
+   "description": "Pool Covers | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "canonical": null,
+   "robots": null,
+   "ogTitle": "Hipel Pools Blog | Pool Covers",
+   "ogDescription": "Pool Covers | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "ogImage": null,
+   "ogType": "blog",
+   "twitterCard": "summary",
+   "lang": "en",
+   "prev": null,
+   "next": null,
+   "jsonld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "Hipel Pools",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://hipelpools.ca/files/hipel-logo-clear-500-x-214-clear-background.png"
+     },
+     "email": "sales@hipelpools.ca",
+     "url": "https://blog.hipelpools.ca/tag/pool-covers",
+     "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Canada",
+      "addressRegion": "Ontario",
+      "addressLocality": "Kitchener",
+      "postalCode": "N2C 1K9",
+      "streetAddress": "43 Manitou Dr"
+     },
+     "telephone": "(519)-997-2434",
+     "knowsLanguage": "en"
+    }
+   ]
+  }
+ },
+ "/tag/pool-equipment": {
+  "url": "https://blog.hipelpools.ca/tag/pool-equipment",
+  "meta": {
+   "title": "Hipel Pools Blog | Pool Equipment",
+   "description": "Pool Equipment | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "canonical": null,
+   "robots": null,
+   "ogTitle": "Hipel Pools Blog | Pool Equipment",
+   "ogDescription": "Pool Equipment | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "ogImage": null,
+   "ogType": "blog",
+   "twitterCard": "summary",
+   "lang": "en",
+   "prev": null,
+   "next": null,
+   "jsonld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "Hipel Pools",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://hipelpools.ca/files/hipel-logo-clear-500-x-214-clear-background.png"
+     },
+     "email": "sales@hipelpools.ca",
+     "url": "https://blog.hipelpools.ca/tag/pool-equipment",
+     "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Canada",
+      "addressRegion": "Ontario",
+      "addressLocality": "Kitchener",
+      "postalCode": "N2C 1K9",
+      "streetAddress": "43 Manitou Dr"
+     },
+     "telephone": "(519)-997-2434",
+     "knowsLanguage": "en"
+    }
+   ]
+  }
+ },
+ "/tag/pool-options": {
+  "url": "https://blog.hipelpools.ca/tag/pool-options",
+  "meta": {
+   "title": "Hipel Pools Blog | Pool Options",
+   "description": "Pool Options | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "canonical": null,
+   "robots": null,
+   "ogTitle": "Hipel Pools Blog | Pool Options",
+   "ogDescription": "Pool Options | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "ogImage": null,
+   "ogType": "blog",
+   "twitterCard": "summary",
+   "lang": "en",
+   "prev": null,
+   "next": null,
+   "jsonld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "Hipel Pools",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://hipelpools.ca/files/hipel-logo-clear-500-x-214-clear-background.png"
+     },
+     "email": "sales@hipelpools.ca",
+     "url": "https://blog.hipelpools.ca/tag/pool-options",
+     "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Canada",
+      "addressRegion": "Ontario",
+      "addressLocality": "Kitchener",
+      "postalCode": "N2C 1K9",
+      "streetAddress": "43 Manitou Dr"
+     },
+     "telephone": "(519)-997-2434",
+     "knowsLanguage": "en"
+    }
+   ]
+  }
+ },
+ "/tag/pool-types": {
+  "url": "https://blog.hipelpools.ca/tag/pool-types",
+  "meta": {
+   "title": "Hipel Pools Blog | Pool Types",
+   "description": "Pool Types | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "canonical": null,
+   "robots": null,
+   "ogTitle": "Hipel Pools Blog | Pool Types",
+   "ogDescription": "Pool Types | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "ogImage": null,
+   "ogType": "blog",
+   "twitterCard": "summary",
+   "lang": "en",
+   "prev": null,
+   "next": null,
+   "jsonld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "Hipel Pools",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://hipelpools.ca/files/hipel-logo-clear-500-x-214-clear-background.png"
+     },
+     "email": "sales@hipelpools.ca",
+     "url": "https://blog.hipelpools.ca/tag/pool-types",
+     "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Canada",
+      "addressRegion": "Ontario",
+      "addressLocality": "Kitchener",
+      "postalCode": "N2C 1K9",
+      "streetAddress": "43 Manitou Dr"
+     },
+     "telephone": "(519)-997-2434",
+     "knowsLanguage": "en"
+    }
+   ]
+  }
+ },
+ "/tag/reviews-ratings": {
+  "url": "https://blog.hipelpools.ca/tag/reviews-ratings",
+  "meta": {
+   "title": "Hipel Pools Blog | Reviews & Ratings",
+   "description": "Reviews & Ratings | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "canonical": null,
+   "robots": null,
+   "ogTitle": "Hipel Pools Blog | Reviews & Ratings",
+   "ogDescription": "Reviews & Ratings | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "ogImage": null,
+   "ogType": "blog",
+   "twitterCard": "summary",
+   "lang": "en",
+   "prev": null,
+   "next": null,
+   "jsonld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "Hipel Pools",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://hipelpools.ca/files/hipel-logo-clear-500-x-214-clear-background.png"
+     },
+     "email": "sales@hipelpools.ca",
+     "url": "https://blog.hipelpools.ca/tag/reviews-ratings",
+     "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Canada",
+      "addressRegion": "Ontario",
+      "addressLocality": "Kitchener",
+      "postalCode": "N2C 1K9",
+      "streetAddress": "43 Manitou Dr"
+     },
+     "telephone": "(519)-997-2434",
+     "knowsLanguage": "en"
+    },
+    {
+     "@context": "https://schema.org",
+     "@type": "VideoObject",
+     "contentUrl": "https://stream.mux.com/gXif00Cfk0089AsZXisiKqk01Jl01NYw77bRsYW9fcKeNmc/capped-1080p.mp4",
+     "dateModified": "2025-02-01T17:15:45.005Z",
+     "description": "Pool Opening Service In Ontario. Explore How Our Pool Openings Work How Easy They Are To Book On Our Website &amp; What Our Pool Openings Include",
+     "duration": "PT2M16.262S",
+     "height": 2160,
+     "name": "Pool Opening Service Highlight: Hipel Pools",
+     "thumbnailUrl": "https://hipelpools.ca/files/pool-opening-service-highlight-hipel-pools-medium.jpg",
+     "uploadDate": "2025-02-01T17:08:15.885Z",
+     "width": 3840
+    }
+   ]
+  }
+ },
+ "/tag/small-inground-pools": {
+  "url": "https://blog.hipelpools.ca/tag/small-inground-pools",
+  "meta": {
+   "title": "Hipel Pools Blog | Small Inground Pools",
+   "description": "Small Inground Pools | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "canonical": null,
+   "robots": null,
+   "ogTitle": "Hipel Pools Blog | Small Inground Pools",
+   "ogDescription": "Small Inground Pools | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "ogImage": null,
+   "ogType": "blog",
+   "twitterCard": "summary",
+   "lang": "en",
+   "prev": null,
+   "next": null,
+   "jsonld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "Hipel Pools",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://hipelpools.ca/files/hipel-logo-clear-500-x-214-clear-background.png"
+     },
+     "email": "sales@hipelpools.ca",
+     "url": "https://blog.hipelpools.ca/tag/small-inground-pools",
+     "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Canada",
+      "addressRegion": "Ontario",
+      "addressLocality": "Kitchener",
+      "postalCode": "N2C 1K9",
+      "streetAddress": "43 Manitou Dr"
+     },
+     "telephone": "(519)-997-2434",
+     "knowsLanguage": "en"
+    }
+   ]
+  }
+ },
+ "/tag/uncategorized": {
+  "url": "https://blog.hipelpools.ca/tag/uncategorized",
+  "meta": {
+   "title": "Hipel Pools Blog | Uncategorized",
+   "description": "Uncategorized | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "canonical": null,
+   "robots": null,
+   "ogTitle": "Hipel Pools Blog | Uncategorized",
+   "ogDescription": "Uncategorized | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "ogImage": null,
+   "ogType": "blog",
+   "twitterCard": "summary",
+   "lang": "en",
+   "prev": null,
+   "next": null,
+   "jsonld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "Hipel Pools",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://hipelpools.ca/files/hipel-logo-clear-500-x-214-clear-background.png"
+     },
+     "email": "sales@hipelpools.ca",
+     "url": "https://blog.hipelpools.ca/tag/uncategorized",
+     "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Canada",
+      "addressRegion": "Ontario",
+      "addressLocality": "Kitchener",
+      "postalCode": "N2C 1K9",
+      "streetAddress": "43 Manitou Dr"
+     },
+     "telephone": "(519)-997-2434",
+     "knowsLanguage": "en"
+    }
+   ]
+  }
+ },
+ "/tag/water-chemistry": {
+  "url": "https://blog.hipelpools.ca/tag/water-chemistry",
+  "meta": {
+   "title": "Hipel Pools Blog | Water Chemistry",
+   "description": "Water Chemistry | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "canonical": null,
+   "robots": null,
+   "ogTitle": "Hipel Pools Blog | Water Chemistry",
+   "ogDescription": "Water Chemistry | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "ogImage": null,
+   "ogType": "blog",
+   "twitterCard": "summary",
+   "lang": "en",
+   "prev": null,
+   "next": null,
+   "jsonld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "Hipel Pools",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://hipelpools.ca/files/hipel-logo-clear-500-x-214-clear-background.png"
+     },
+     "email": "sales@hipelpools.ca",
+     "url": "https://blog.hipelpools.ca/tag/water-chemistry",
+     "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Canada",
+      "addressRegion": "Ontario",
+      "addressLocality": "Kitchener",
+      "postalCode": "N2C 1K9",
+      "streetAddress": "43 Manitou Dr"
+     },
+     "telephone": "(519)-997-2434",
+     "knowsLanguage": "en"
+    }
+   ]
+  }
+ }
+}

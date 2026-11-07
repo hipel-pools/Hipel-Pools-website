@@ -1,0 +1,19 @@
+{
+  "name": "hipel-pools-website",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "npm run build:main && npm run build:blog",
+    "build:main": "SITE_TARGET=main astro build --outDir dist/main && node scripts/postbuild.mjs dist/main main",
+    "build:blog": "SITE_TARGET=blog astro build --outDir dist/blog && node scripts/postbuild.mjs dist/blog blog",
+    "preview": "astro preview",
+    "check:seo": "node scripts/check-seo.mjs"
+  },
+  "dependencies": {
+    "@fontsource/poppins": "^5.3.0",
+    "@fontsource/roboto": "^5.3.0",
+    "astro": "^7.4.7"
+  }
+}

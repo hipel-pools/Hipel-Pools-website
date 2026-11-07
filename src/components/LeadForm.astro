@@ -1,0 +1,54 @@
+---
+// Replacement for the HubSpot forms. Same fields as the HubSpot originals.
+// Submissions POST to /api/form (Cloudflare Pages Function in functions/api/form.ts),
+// which emails them to the business and redirects to the thank-you page.
+interface Props { kind: 'quote' | 'contact' }
+const { kind } = Astro.props;
+const action = '/api/form';
+const services = ['Pool Installation', 'Pool Service', 'Landscaping', 'Landscape Design'];
+const heard = ['Google', 'Facebook', 'Instagram', 'TikTok', 'Referred By A Friend', 'Referred By A Contractor', 'Company Vehicle', 'Other'];
+const uid = Math.random().toString(36).slice(2, 8);
+const id = (n: string) => `${kind}-${n}-${uid}`;
+---
+<form class="lead-form" method="post" action={action} enctype="multipart/form-data" data-lead-form>
+  <input type="hidden" name="form" value={kind} />
+  <input type="hidden" name="page" value="" data-page-url />
+  <div class="lead-form__hp" aria-hidden="true">
+    <label>Leave this empty <input type="text" name="company_website" tabindex="-1" autocomplete="off" /></label>
+  </div>
+  <div class="lead-form__row">
+    <div class="lead-form__field"><label for={id('fn')}>First Name<span>*</span></label><input id={id('fn')} name="firstname" required autocomplete="given-name" /></div>
+    <div class="lead-form__field"><label for={id('ln')}>Last Name<span>*</span></label><input id={id('ln')} name="lastname" required autocomplete="family-name" /></div>
+  </div>
+  <div class="lead-form__field"><label for={id('em')}>Email<span>*</span></label><input id={id('em')} name="email" type="email" required autocomplete="email" /></div>
+  {kind === 'quote' ? (
+    <>
+      <div class="lead-form__field"><label for={id('ph')}>Mobile phone number</label><input id={id('ph')} name="mobilephone" type="tel" autocomplete="tel" /></div>
+      <div class="lead-form__field"><label for={id('ad')}>Street address<span>*</span></label><input id={id('ad')} name="address" required autocomplete="street-address" /></div>
+      <div class="lead-form__row">
+        <div class="lead-form__field"><label for={id('ci')}>City<span>*</span></label><input id={id('ci')} name="city" required autocomplete="address-level2" /></div>
+        <div class="lead-form__field"><label for={id('pr')}>Province<span>*</span></label><input id={id('pr')} name="state" required autocomplete="address-level1" value="Ontario" /></div>
+      </div>
+      <fieldset class="lead-form__field" data-require-one>
+        <legend>What Services Are You Interested In?<span>*</span></legend>
+        {services.map((s) => <label class="lead-form__check"><input type="checkbox" name="services" value={s} /> {s}</label>)}
+      </fieldset>
+      <div class="lead-form__field">
+        <label for={id('hd')}>How did you hear about us?<span>*</span></label>
+        <select id={id('hd')} name="heard" required>
+          <option value="">Please Select</option>
+          {heard.map((h) => <option>{h}</option>)}
+        </select>
+      </div>
+      <div class="lead-form__field"><label for={id('fu')}>File Upload</label><input id={id('fu')} name="file_upload" type="file" accept="image/*,.pdf,.dwg,.doc,.docx" /></div>
+      <div class="lead-form__field"><label for={id('pj')}>Tell Us About Your Project<span>*</span></label><textarea id={id('pj')} name="message" rows="5" required></textarea></div>
+    </>
+  ) : (
+    <>
+      <div class="lead-form__field"><label for={id('ph')}>Phone number</label><input id={id('ph')} name="phone" type="tel" autocomplete="tel" /></div>
+      <div class="lead-form__field"><label for={id('ms')}>Message<span>*</span></label><textarea id={id('ms')} name="message" rows="5" required></textarea></div>
+    </>
+  )}
+  <p class="lead-form__status" role="status" aria-live="polite"></p>
+  <button type="submit" class="hp-btn lead-form__submit">Submit</button>
+</form>

@@ -1,0 +1,1548 @@
+{
+ "pages": {
+  "https://blog.hipelpools.ca/": {
+   "title": "Hipel Pools Blog",
+   "description": "Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "canonical": null,
+   "robots": null,
+   "h1": [
+    "Blog"
+   ],
+   "words": 810,
+   "jsonld": 2
+  },
+  "https://blog.hipelpools.ca/academy": {
+   "title": "Hipel Pools - Academy",
+   "description": "DIY Pool Care",
+   "canonical": null,
+   "robots": null,
+   "h1": [
+    "Hipel Pools - Academy"
+   ],
+   "words": 220,
+   "jsonld": 1
+  },
+  "https://blog.hipelpools.ca/academy/author/kadison-hipel": {
+   "title": "Hipel Pools - Academy | Kadison Hipel",
+   "description": "Kadison is the President and Founder of Hipel Pools, a swimming pool builder based in Kitchener, Ontario. With active participation in well over 100 pool builds and thousands of service calls Kadison is well versed in all things pools.",
+   "canonical": null,
+   "robots": null,
+   "h1": [
+    "Kadison Hipel"
+   ],
+   "words": 246,
+   "jsonld": 1
+  },
+  "https://blog.hipelpools.ca/academy/can-you-use-an-automatic-pool-cover-to-cover-and-winterize-your-pool-for-the-winter-in-canada": {
+   "title": "Can You Use An Automatic Pool Cover To Cover Your Pool For The Winter?",
+   "description": "Discover whether an automatic pool cover can truly cover, protect and winterize your pool during harsh Canadian winters and why it might be a bad idea.",
+   "canonical": "https://blog.hipelpools.ca/academy/can-you-use-an-automatic-pool-cover-to-cover-and-winterize-your-pool-for-the-winter-in-canada",
+   "robots": null,
+   "h1": [
+    "Can You Use An Automatic Pool Cover To Cover Your Pool For The Winter?"
+   ],
+   "words": 916,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/academy/how-to-clean-a-cartridge-pool-filter-step-by-step-guide": {
+   "title": "How To Clean A Cartridge Pool Filter - Step By Step Guide",
+   "description": "This is the best way to clean a cartridge pool filter. You don't want to miss our step by step DIY pool cartridge filter cleaning guide.",
+   "canonical": "https://blog.hipelpools.ca/academy/how-to-clean-a-cartridge-pool-filter-step-by-step-guide",
+   "robots": null,
+   "h1": [
+    "How To Clean A Cartridge Pool Filter - Step By Step Guide"
+   ],
+   "words": 1467,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/academy/how-to-get-rid-of-algae-in-a-pool-fast-green-pool-water-treatment": {
+   "title": "How To Get Rid Of Algae In A Pool Fast! Green Pool Water Treatment",
+   "description": "Here is the only way to get rid of algae in a pool fast. Step by step pool algae treatment guide. Never get a green pool again!",
+   "canonical": "https://blog.hipelpools.ca/academy/how-to-get-rid-of-algae-in-a-pool-fast-green-pool-water-treatment",
+   "robots": null,
+   "h1": [
+    "How To Get Rid Of Algae In A Pool Fast! Green Pool Water Treatment"
+   ],
+   "words": 1432,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/academy/salt-water-pool-care-maintenance-complete-guide": {
+   "title": "Salt Water Pool Care & Maintenance: Complete Guide",
+   "description": "Learn how to maintain your salt water pool! Get tips on salt levels, water chemistry, cleaning the salt cell, and more in this complete care guide.",
+   "canonical": "https://blog.hipelpools.ca/academy/salt-water-pool-care-maintenance-complete-guide",
+   "robots": null,
+   "h1": [
+    "Salt Water Pool Care & Maintenance: Complete Guide"
+   ],
+   "words": 1654,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/academy/tag/pool-covers": {
+   "title": "Hipel Pools - Academy | Pool Covers",
+   "description": "Pool Covers | DIY Pool Care",
+   "canonical": null,
+   "robots": null,
+   "h1": [
+    "Hipel Pools - Academy"
+   ],
+   "words": 61,
+   "jsonld": 1
+  },
+  "https://blog.hipelpools.ca/academy/tag/pool-equipment": {
+   "title": "Hipel Pools - Academy | Pool Equipment",
+   "description": "Pool Equipment | DIY Pool Care",
+   "canonical": null,
+   "robots": null,
+   "h1": [
+    "Hipel Pools - Academy"
+   ],
+   "words": 60,
+   "jsonld": 1
+  },
+  "https://blog.hipelpools.ca/academy/tag/water-chemistry": {
+   "title": "Hipel Pools - Academy | Water Chemistry",
+   "description": "Water Chemistry | DIY Pool Care",
+   "canonical": null,
+   "robots": null,
+   "h1": [
+    "Hipel Pools - Academy"
+   ],
+   "words": 100,
+   "jsonld": 1
+  },
+  "https://blog.hipelpools.ca/academy/what-percentage-should-i-set-my-salt-cell-salt-chlorine-generator-to": {
+   "title": "What Percentage Should I Set My Salt Chlorine Generator To?",
+   "description": "Wondering What you should set the output percentage of your salt chlorine generator or salt cell? How To Set the output percentage of your salt cell.",
+   "canonical": "https://blog.hipelpools.ca/academy/what-percentage-should-i-set-my-salt-cell-salt-chlorine-generator-to",
+   "robots": null,
+   "h1": [
+    "What Percentage Should I Set My Salt Chlorine Generator To?"
+   ],
+   "words": 1507,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/author/kadison-hipel": {
+   "title": "Hipel Pools Blog | Kadison Hipel",
+   "description": "Kadison is the President and Founder of Hipel Pools, a swimming pool builder based in Kitchener, Ontario. With active participation in well over 100 pool builds and thousands of service calls Kadison is well versed in all things pools.",
+   "canonical": null,
+   "robots": null,
+   "h1": [
+    "Kadison Hipel"
+   ],
+   "words": 409,
+   "jsonld": 2
+  },
+  "https://blog.hipelpools.ca/author/kadison-hipel/page/1": {
+   "title": "Hipel Pools Blog | Kadison Hipel",
+   "description": "Kadison is the President and Founder of Hipel Pools, a swimming pool builder based in Kitchener, Ontario. With active participation in well over 100 pool builds and thousands of service calls Kadison is well versed in all things pools.",
+   "canonical": null,
+   "robots": null,
+   "h1": [
+    "Kadison Hipel"
+   ],
+   "words": 409,
+   "jsonld": 2
+  },
+  "https://blog.hipelpools.ca/author/kadison-hipel/page/2": {
+   "title": "Hipel Pools Blog | Kadison Hipel (2)",
+   "description": "Kadison is the President and Founder of Hipel Pools, a swimming pool builder based in Kitchener, Ontario. With active participation in well over 100 pool builds and thousands of service calls Kadison is well versed in all things pools. (2)",
+   "canonical": null,
+   "robots": null,
+   "h1": [
+    "Kadison Hipel"
+   ],
+   "words": 441,
+   "jsonld": 1
+  },
+  "https://blog.hipelpools.ca/author/kadison-hipel/page/3": {
+   "title": "Hipel Pools Blog | Kadison Hipel (3)",
+   "description": "Kadison is the President and Founder of Hipel Pools, a swimming pool builder based in Kitchener, Ontario. With active participation in well over 100 pool builds and thousands of service calls Kadison is well versed in all things pools. (3)",
+   "canonical": null,
+   "robots": null,
+   "h1": [
+    "Kadison Hipel"
+   ],
+   "words": 408,
+   "jsonld": 1
+  },
+  "https://blog.hipelpools.ca/automatic-pool-covers-are-they-worth-it": {
+   "title": "Automatic Pool Covers: Are They Worth It?",
+   "description": "Are automatic pool covers worth the price? Extremely safe, durable, and just plain cool automatic covers are a very sought-after but are they worth it",
+   "canonical": "https://blog.hipelpools.ca/automatic-pool-covers-are-they-worth-it",
+   "robots": null,
+   "h1": [
+    "Automatic Pool Covers: Are They Worth It?",
+    ""
+   ],
+   "words": 1393,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/best-pool-opening-services-in-kitchener-waterloo": {
+   "title": "Best Pool Opening Services In Kitchener-Waterloo",
+   "description": "Top 3 Pool Opening Service Companies In Kitchener-Waterloo. These Pool Service Companies Provide The Best Service For Pool Openings In Kitchener & Waterloo",
+   "canonical": "https://blog.hipelpools.ca/best-pool-opening-services-in-kitchener-waterloo",
+   "robots": null,
+   "h1": [
+    "Best Pool Opening Services In Kitchener-Waterloo"
+   ],
+   "words": 734,
+   "jsonld": 4
+  },
+  "https://blog.hipelpools.ca/best-swimming-pool-contractors-in-kitchener-waterloo-cambridge": {
+   "title": "Top Swimming Pool Contractors In Kitchener, Waterloo & Cambridge",
+   "description": "Who are the best pool companies in Kitchener, Waterloo, & Cambridge? We break down the best pool companies by pool type in the area.",
+   "canonical": "https://blog.hipelpools.ca/best-swimming-pool-contractors-in-kitchener-waterloo-cambridge",
+   "robots": null,
+   "h1": [
+    "Top Swimming Pool Contractors In Kitchener, Waterloo & Cambridge"
+   ],
+   "words": 898,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/choosing-a-fiberglass-pool-builder-in-kitchener-on": {
+   "title": "Choosing A Fiberglass Pool Builder In Kitchener, ON",
+   "description": "If you're looking for a fiberglass pool builder in Kitchener, ON you need these tips to get the most out of your fiberglass pool installation.",
+   "canonical": "https://blog.hipelpools.ca/choosing-a-fiberglass-pool-builder-in-kitchener-on",
+   "robots": null,
+   "h1": [
+    "Choosing A Fiberglass Pool Builder In Kitchener, ON"
+   ],
+   "words": 789,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/cleardeck-systems-inground-solar-blanket-roller": {
+   "title": "What Is A Cleardeck System? - Review & Cost - Pros & Cons",
+   "description": "What is a Cleardeck System? What are the Pros and Cons Of A Cleardeck System? Our Honest Review - Hipel Pools",
+   "canonical": "https://blog.hipelpools.ca/cleardeck-systems-inground-solar-blanket-roller",
+   "robots": null,
+   "h1": [
+    "What is a Cleardeck System? – Review & Cost"
+   ],
+   "words": 591,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/disadvantages-of-fiberglass-pools-in-canada": {
+   "title": "Disadvantages Of Fiberglass Pools In Canada",
+   "description": "Disadvantages of Fiberglass Pools Include: Overstated Warranties, Limited Customizations, High Install Cost, Hard To Repair, & Environmental Impacts",
+   "canonical": "https://blog.hipelpools.ca/disadvantages-of-fiberglass-pools-in-canada",
+   "robots": null,
+   "h1": [
+    "Disadvantages Of Fiberglass Pools In Canada"
+   ],
+   "words": 1376,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/does-a-salt-water-pool-have-chlorine": {
+   "title": "Does A Salt Water Pool Have Chlorine? The Science Behind Salt Pools",
+   "description": "Does a salt water pool have chlorine? Well the answer is yes salt water pools are still chlorine pools let us explain why salt water pools contain chlorine",
+   "canonical": "https://blog.hipelpools.ca/does-a-salt-water-pool-have-chlorine",
+   "robots": null,
+   "h1": [
+    "Does A Salt Water Pool Have Chlorine? The Science Behind Salt Pools"
+   ],
+   "words": 1381,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/fiberglass-pools-canada-prices-how-much-does-a-fiberglass-pool-cost": {
+   "title": "Fiberglass Pools Canada Prices, How Much Does A Fiberglass Pool Cost?",
+   "description": "How much does a fiberglass pool cost to install in Canada? Our Complete Guide to fiberglass pool prices Canada. Prices start at $70,000 and go up to...",
+   "canonical": "https://blog.hipelpools.ca/fiberglass-pools-canada-prices-how-much-does-a-fiberglass-pool-cost",
+   "robots": null,
+   "h1": [
+    "Fiberglass Pools Canada Prices, How Much Does A Fiberglass Pool Cost?"
+   ],
+   "words": 703,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/gas-pool-heater-vs.-electric-heat-pump-which-is-best-for-canadian-pools": {
+   "title": "Gas Pool Heater vs. Electric Heat Pump: Which is Best for Canadian Pools?",
+   "description": "Gas Pool Heaters and Electric Heat Pumps for pools both have some distinct differences and advantages but what option would be best for your swimming pool?",
+   "canonical": "https://blog.hipelpools.ca/gas-pool-heater-vs.-electric-heat-pump-which-is-best-for-canadian-pools",
+   "robots": null,
+   "h1": [
+    "Gas Pool Heater vs. Electric Heat Pump: Which is Best for Canadian Pools?"
+   ],
+   "words": 1237,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/hayward-vs.-jandy-vs.-pentair-who-makes-the-best-pool-equipment": {
+   "title": "Hayward Vs. Jandy Vs. Pentair - Who Makes The Best Pool Equipment?",
+   "description": "Hayward Vs. Jandy Vs. Pentair - Comparing the Big Three Pool Equipment Brands. Who makes the Best Pool Equipment? Guide to choosing the best brand ",
+   "canonical": "https://blog.hipelpools.ca/hayward-vs.-jandy-vs.-pentair-who-makes-the-best-pool-equipment",
+   "robots": null,
+   "h1": [
+    "Hayward Vs. Jandy Vs. Pentair - Who Makes The Best Pool Equipment?"
+   ],
+   "words": 1908,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/hot-tub-pool-combo-review-cost": {
+   "title": "Is A Hot Tub Pool Combo The Right Choice For You? - Review & Cost",
+   "description": "Hot tub pool combos or inground pools with attached spas are a major trend. This is our honest in-depth review & cost guide.",
+   "canonical": "https://blog.hipelpools.ca/hot-tub-pool-combo-review-cost",
+   "robots": null,
+   "h1": [
+    "Is A Hot Tub Pool Combo The Right Choice For You?"
+   ],
+   "words": 1381,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/how-much-do-fiberglass-pools-cost-in-ontario-canada": {
+   "title": "How Much Do Fiberglass Pools Cost In Ontario, Canada?",
+   "description": "How much does a fiberglass pool cost in Ontario, Canada? The cost of fiberglass swimming pool starts at about $60,000 and can easily exceed $130,000+",
+   "canonical": "https://blog.hipelpools.ca/how-much-do-fiberglass-pools-cost-in-ontario-canada",
+   "robots": null,
+   "h1": [
+    "How Much Do Fiberglass Pools Cost In Ontario, Canada?"
+   ],
+   "words": 1378,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/how-much-does-a-12-x-24-inground-pool-cost-in-2026": {
+   "title": "How Much Does A 12' x 24' Inground Pool Cost In 2026",
+   "description": "How much does a 12' x 24' inground pool cost in 2026? The answer might surprise you. Lets take a dive into how much a small inground pool will cost.",
+   "canonical": "https://blog.hipelpools.ca/how-much-does-a-12-x-24-inground-pool-cost-in-2026",
+   "robots": null,
+   "h1": [
+    "How Much Does A 12' x 24' Inground Pool Cost In 2026"
+   ],
+   "words": 955,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/how-much-does-a-fiberglass-pool-cost-in-kitchener-waterloo": {
+   "title": "How Much Does A Fiberglass Pool Cost In Kitchener-Waterloo?",
+   "description": "Discover the cost of installing a fiberglass pool in Kitchener-Waterloo, including factors that influence pricing and additional costs to consider. ",
+   "canonical": "https://blog.hipelpools.ca/how-much-does-a-fiberglass-pool-cost-in-kitchener-waterloo",
+   "robots": null,
+   "h1": [
+    "How Much Does A Fiberglass Pool Cost In Kitchener-Waterloo?"
+   ],
+   "words": 1160,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/how-much-does-a-pool-liner-cost-pool-liner-replacement-cost-canada": {
+   "title": "How Much Does A Pool Liner Cost? Pool Liner Replacement Cost Canada",
+   "description": "How much does a pool liner cost in Canada? Dig into our extensive cost and pricing guide for vinyl pool liners and pool liner replacements.",
+   "canonical": "https://blog.hipelpools.ca/how-much-does-a-pool-liner-cost-pool-liner-replacement-cost-canada",
+   "robots": null,
+   "h1": [
+    "How Much Does A Pool Liner Cost? Pool Liner Replacement Cost Canada"
+   ],
+   "words": 1262,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/how-much-does-an-inground-pool-cost-in-ontario-canada": {
+   "title": "How Much Does An Inground Pool Cost In Ontario, Canada",
+   "description": "How much does an inground pool cost in Ontario, Canada? Breakdown of inground pool installation cost by pool type. Vinyl, Fiberglass, and concrete pools.",
+   "canonical": "https://blog.hipelpools.ca/how-much-does-an-inground-pool-cost-in-ontario-canada",
+   "robots": null,
+   "h1": [
+    "How Much Does An Inground Pool Cost In Ontario, Canada"
+   ],
+   "words": 1713,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/indoor-pool-addition-cost-in-ontario": {
+   "title": "How Much Does An Indoor Pool Cost in Ontario?",
+   "description": "An indoor pool addition combines a pool, a purpose-built enclosure, and year-round mechanical systems. Explore construction and operating costs.",
+   "canonical": "https://blog.hipelpools.ca/indoor-pool-addition-cost-in-ontario",
+   "robots": null,
+   "h1": [
+    "How Much Does An Indoor Pool Cost in Ontario?"
+   ],
+   "words": 2802,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/installing-an-inground-pool-in-a-high-water-table": {
+   "title": "Installing An Inground Pool In A High Water Table - You Need To Know",
+   "description": "Install an inground pool in a high water table. Overcome the challenges with expert techniques and solutions. keep your pool safe from ground water",
+   "canonical": "https://blog.hipelpools.ca/installing-an-inground-pool-in-a-high-water-table",
+   "robots": null,
+   "h1": [
+    "Installing An Inground Pool In A High Water Table - You Need To Know"
+   ],
+   "words": 1272,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/is-a-winter-safety-pool-cover-the-best-winter-pool-cover": {
+   "title": "Are Winter Safety Pool Covers The Best Winter Pool Cover?",
+   "description": "Is a winter safety pool cover the right winter cover for you? Winter safety pool covers explanation and comparison",
+   "canonical": "https://blog.hipelpools.ca/is-a-winter-safety-pool-cover-the-best-winter-pool-cover",
+   "robots": null,
+   "h1": [
+    "Are Winter Safety Pool Covers The Best Winter Pool Cover?"
+   ],
+   "words": 1276,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/mineral-pool-systems-honest-guide-review-cost": {
+   "title": "Mineral Pool Systems - Honest Guide & Review",
+   "description": "Pool mineral sanitizers are an extremely effective pool sanitizer designed to reduce the need for chlorine making for a more enjoyable swimming experience",
+   "canonical": "https://blog.hipelpools.ca/mineral-pool-systems-honest-guide-review-cost",
+   "robots": null,
+   "h1": [
+    "Mineral Pool Systems - Honest Guide & Review",
+    "Mineral Pool Sanitizers Honest Guide & Review"
+   ],
+   "words": 1268,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/page/1": {
+   "title": "Hipel Pools Blog",
+   "description": "Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "canonical": null,
+   "robots": null,
+   "h1": [
+    "Blog"
+   ],
+   "words": 810,
+   "jsonld": 2
+  },
+  "https://blog.hipelpools.ca/page/2": {
+   "title": "Hipel Pools Blog (2)",
+   "description": "Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada.  (2)",
+   "canonical": null,
+   "robots": null,
+   "h1": [
+    "Blog"
+   ],
+   "words": 877,
+   "jsonld": 1
+  },
+  "https://blog.hipelpools.ca/page/3": {
+   "title": "Hipel Pools Blog (3)",
+   "description": "Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada.  (3)",
+   "canonical": null,
+   "robots": null,
+   "h1": [
+    "Blog"
+   ],
+   "words": 815,
+   "jsonld": 1
+  },
+  "https://blog.hipelpools.ca/pool-covers-ultimate-guide": {
+   "title": "Pool Covers - The Ultimate Guide",
+   "description": "Let's take a deep dive into all things pool covers. What are the best options for pool covers during both the summer and winter months?",
+   "canonical": "https://blog.hipelpools.ca/pool-covers-ultimate-guide",
+   "robots": null,
+   "h1": [
+    "Pool Covers – The Ultimate Guide",
+    "Pool Covers - The Ultimate Guide"
+   ],
+   "words": 2779,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/pool-evaporation-how-much-water-can-evaporate-from-a-pool-in-a-day": {
+   "title": "How Much Water Can Evaporate From A Pool In A Day?",
+   "description": "How much water can evaporate from a pool in a day? Typically around 1/4\" of water-loss per day is considered normal.",
+   "canonical": "https://blog.hipelpools.ca/pool-evaporation-how-much-water-can-evaporate-from-a-pool-in-a-day",
+   "robots": null,
+   "h1": [
+    "Pool Evaporation – How Much Water Can Evaporate From A Pool In A Day?"
+   ],
+   "words": 1298,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/pool-installation-financing-options-in-canada": {
+   "title": "Pool Installation Financing Options in Canada - How To Pay For A Pool",
+   "description": "Wondering how to pay for a pool installation? Explore the best financing solutions for pool installation in Canada.",
+   "canonical": "https://blog.hipelpools.ca/pool-installation-financing-options-in-canada",
+   "robots": null,
+   "h1": [
+    "Pool Installation Financing Options in Canada - How To Pay For A Pool"
+   ],
+   "words": 882,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/sand-filter-vs-cartridge-filter-best-pool-filters-for-inground-pools": {
+   "title": "Sand Filter vs Cartridge Filter - Best Pool Filters For Inground Pools",
+   "description": "Choose the best pool filter for your inground pool. Sand Filters vs Cartridge Filters comparison and guide to choosing a swimming pool filter.",
+   "canonical": "https://blog.hipelpools.ca/sand-filter-vs-cartridge-filter-best-pool-filters-for-inground-pools",
+   "robots": null,
+   "h1": [
+    "Sand Filter vs Cartridge Filter - Best Pool Filters For Inground Pools"
+   ],
+   "words": 1047,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/solar-pool-blankets-the-good-bad-honest-review": {
+   "title": "Solar Pool Blankets - An Honest Review",
+   "description": "Solar pool blankets are a popular pool cover with some advantages and disadvantages. In this article we take a deep dive into solar blankets",
+   "canonical": "https://blog.hipelpools.ca/solar-pool-blankets-the-good-bad-honest-review",
+   "robots": null,
+   "h1": [
+    "Solar Pool Blankets – The Good & The Bad – Honest Review"
+   ],
+   "words": 1337,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/swimming-pool-filter-systems": {
+   "title": "Swimming Pool Filter Systems - Ultimate Guide - Which Filter Is Best?",
+   "description": "Sand, Cartridge, & DE Filters are commonly used as swimming pool filter systems but what one is best for your swimming pool?",
+   "canonical": "https://blog.hipelpools.ca/swimming-pool-filter-systems",
+   "robots": null,
+   "h1": [
+    "Swimming Pool Filter Systems"
+   ],
+   "words": 1149,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/tag/cost-pricing": {
+   "title": "Hipel Pools Blog | Cost & Pricing",
+   "description": "Cost & Pricing | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "canonical": null,
+   "robots": null,
+   "h1": [
+    "Blog"
+   ],
+   "words": 786,
+   "jsonld": 1
+  },
+  "https://blog.hipelpools.ca/tag/fiberglass-pool-maintenance": {
+   "title": "Hipel Pools Blog | Fiberglass Pool Maintenance",
+   "description": "Fiberglass Pool Maintenance | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "canonical": null,
+   "robots": null,
+   "h1": [
+    "Blog"
+   ],
+   "words": 258,
+   "jsonld": 1
+  },
+  "https://blog.hipelpools.ca/tag/hot-tub-pool-combos": {
+   "title": "Hipel Pools Blog | Hot Tub Pool Combos",
+   "description": "Hot Tub Pool Combos | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "canonical": null,
+   "robots": null,
+   "h1": [
+    "Blog"
+   ],
+   "words": 187,
+   "jsonld": 1
+  },
+  "https://blog.hipelpools.ca/tag/inground-pools": {
+   "title": "Hipel Pools Blog | Inground Pools",
+   "description": "Inground Pools | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "canonical": null,
+   "robots": null,
+   "h1": [
+    "Blog"
+   ],
+   "words": 389,
+   "jsonld": 1
+  },
+  "https://blog.hipelpools.ca/tag/pool-covers": {
+   "title": "Hipel Pools Blog | Pool Covers",
+   "description": "Pool Covers | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "canonical": null,
+   "robots": null,
+   "h1": [
+    "Blog"
+   ],
+   "words": 476,
+   "jsonld": 1
+  },
+  "https://blog.hipelpools.ca/tag/pool-equipment": {
+   "title": "Hipel Pools Blog | Pool Equipment",
+   "description": "Pool Equipment | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "canonical": null,
+   "robots": null,
+   "h1": [
+    "Blog"
+   ],
+   "words": 424,
+   "jsonld": 1
+  },
+  "https://blog.hipelpools.ca/tag/pool-options": {
+   "title": "Hipel Pools Blog | Pool Options",
+   "description": "Pool Options | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "canonical": null,
+   "robots": null,
+   "h1": [
+    "Blog"
+   ],
+   "words": 592,
+   "jsonld": 1
+  },
+  "https://blog.hipelpools.ca/tag/pool-types": {
+   "title": "Hipel Pools Blog | Pool Types",
+   "description": "Pool Types | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "canonical": null,
+   "robots": null,
+   "h1": [
+    "Blog"
+   ],
+   "words": 386,
+   "jsonld": 1
+  },
+  "https://blog.hipelpools.ca/tag/reviews-ratings": {
+   "title": "Hipel Pools Blog | Reviews & Ratings",
+   "description": "Reviews & Ratings | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "canonical": null,
+   "robots": null,
+   "h1": [
+    "Blog"
+   ],
+   "words": 242,
+   "jsonld": 2
+  },
+  "https://blog.hipelpools.ca/tag/small-inground-pools": {
+   "title": "Hipel Pools Blog | Small Inground Pools",
+   "description": "Small Inground Pools | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "canonical": null,
+   "robots": null,
+   "h1": [
+    "Blog"
+   ],
+   "words": 170,
+   "jsonld": 1
+  },
+  "https://blog.hipelpools.ca/tag/uncategorized": {
+   "title": "Hipel Pools Blog | Uncategorized",
+   "description": "Uncategorized | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "canonical": null,
+   "robots": null,
+   "h1": [
+    "Blog"
+   ],
+   "words": 243,
+   "jsonld": 1
+  },
+  "https://blog.hipelpools.ca/tag/water-chemistry": {
+   "title": "Hipel Pools Blog | Water Chemistry",
+   "description": "Water Chemistry | Learn more about swimming pools with the Hipel Pools Blog built for pool owners in Ontario, Canada. ",
+   "canonical": null,
+   "robots": null,
+   "h1": [
+    "Blog"
+   ],
+   "words": 189,
+   "jsonld": 1
+  },
+  "https://blog.hipelpools.ca/the-5-best-swimming-pool-sanitizers-for-inground-pools": {
+   "title": "The 5 Best Swimming Pool Sanitizers For Inground Pools",
+   "description": "Pool Sanitizers like chlorine, salt water, ozone, UV, and mineral systems are critical in maintaining a safe pool environment, but which pool sanitizer is...",
+   "canonical": "https://blog.hipelpools.ca/the-5-best-swimming-pool-sanitizers-for-inground-pools",
+   "robots": null,
+   "h1": [
+    "The 5 Best Swimming Pool Sanitizers For Inground Pools"
+   ],
+   "words": 2079,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/top-5-small-fiberglass-pools-for-an-epic-transformation": {
+   "title": "Top 5 Small Fiberglass Pools For An Epic Transformation",
+   "description": "Small inground pools are becoming a big hit in the modern era. These are the Top 5 Small fiberglass pools we've installed in Ontario, Canada since 2018",
+   "canonical": "https://blog.hipelpools.ca/top-5-small-fiberglass-pools-for-an-epic-transformation",
+   "robots": null,
+   "h1": [
+    "Top 5 Small Fiberglass Pools For An Epic Transformation",
+    "Top 5 Small Fiberglass Pools For An Epic Transformation"
+   ],
+   "words": 2041,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/who-are-the-top-5-fiberglass-pool-manufacturers-in-canada": {
+   "title": "Who Are The Top 5 Fiberglass Pool Manufacturers In Canada?",
+   "description": "Choosing the best fiberglass pool manufacturer in Canada can be tough! Luckily we've installed hundreds of pools and can easily determine who is the best!",
+   "canonical": "https://blog.hipelpools.ca/who-are-the-top-5-fiberglass-pool-manufacturers-in-canada",
+   "robots": null,
+   "h1": [
+    "Who Are The Top 5 Fiberglass Pool Manufacturers In Canada?"
+   ],
+   "words": 1315,
+   "jsonld": 3
+  },
+  "https://blog.hipelpools.ca/why-is-my-fiberglass-pool-turning-white-fading": {
+   "title": "Why Is My Fiberglass Pool Turning White & Fading?",
+   "description": "Discover why your fiberglass pool may be turning white or fading, and learn how to diagnose and address calcium carbonate scale and chalking issues.",
+   "canonical": "https://blog.hipelpools.ca/why-is-my-fiberglass-pool-turning-white-fading",
+   "robots": null,
+   "h1": [
+    "Why Is My Fiberglass Pool Turning White & Fading?"
+   ],
+   "words": 890,
+   "jsonld": 3
+  },
+  "https://hipelpools.ca/": {
+   "title": "Pool Installation & Service In Kitchener, Waterloo, Cambridge, Guelph",
+   "description": "Transform Your Backyard Into A Luxurious Retreat With Custom Pool Design, Build, & Service.  Servicing Kitchener-Waterloo, Cambridge, Guelph & Surrounding.",
+   "canonical": "https://hipelpools.ca",
+   "robots": null,
+   "h1": [
+    "Luxury Pool Design, Build, & Maintenance"
+   ],
+   "words": 971,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/above-ground-pools/locations/kitchener-waterloo-cambridge-guelph/": {
+   "title": "Above Ground Pools Kitchener, Waterloo, Cambridge, & Guelph",
+   "description": "Above-ground pool sales and installation in Kitchener, Waterloo, Cambridge, and Guelph, ON. Get swimming fast with a speedy installation.",
+   "canonical": "https://hipelpools.ca/above-ground-pools/locations/kitchener-waterloo-cambridge-guelph/",
+   "robots": "noindex",
+   "h1": [
+    "Above Ground Pools Kitchener, Waterloo, Cambridge, & Guelph"
+   ],
+   "words": 691,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/accessories/winter-safety-pool-covers": {
+   "title": "Winter Pool Safety Covers - Strong, Durable, Safe - Sales & Install",
+   "description": "Protect your inground pool and encourage safety with a winter safety pool cover. Extremely strong & durable safety covers are the best winter pool covers.",
+   "canonical": "https://hipelpools.ca/accessories/winter-safety-pool-covers",
+   "robots": null,
+   "h1": [
+    "Winter Pool Safety Covers"
+   ],
+   "words": 539,
+   "jsonld": 2
+  },
+  "https://hipelpools.ca/buyer-guides-for-the-future-inground-pool-owner": {
+   "title": "Buyer Guides: For The Future Inground Pool Owner",
+   "description": "Explore our buyer guides for the future inground swimming pool owner. Dive deep into all things pool related and make the right choices for your pool",
+   "canonical": "https://hipelpools.ca/buyer-guides-for-the-future-inground-pool-owner",
+   "robots": null,
+   "h1": [
+    "Buyer Guides: For The Future Pool Owner"
+   ],
+   "words": 658,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/company/about-us": {
+   "title": "Get to know a little about us - Hipel Pools",
+   "description": "",
+   "canonical": "https://hipelpools.ca/company/about-us",
+   "robots": null,
+   "h1": [
+    "ABOUT US"
+   ],
+   "words": 858,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/company/contact-us": {
+   "title": "Hipel Pools - Contact Us",
+   "description": "Contact Hipel Pools for expert swimming pool assistance. Fill out the contact form for a prompt response within 1 business day. Find our addresses and contact information here.",
+   "canonical": "https://hipelpools.ca/company/contact-us",
+   "robots": null,
+   "h1": [
+    "CONTACT US"
+   ],
+   "words": 71,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/custom-indoor-pool-builders-general-contractors-ontario": {
+   "title": "Custom Indoor Pool Builders & General Contractors In Ontario",
+   "description": "Discover luxury indoor pool solutions with Hipel Pools, specializing in design, construction, and maintenance of indoor pools in Southwestern Ontario.",
+   "canonical": "https://hipelpools.ca/custom-indoor-pool-builders-general-contractors-ontario",
+   "robots": null,
+   "h1": [
+    "Premier Indoor Pool Builders"
+   ],
+   "words": 1825,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/en-ca/request-a-quote": {
+   "title": "Hipel Pools - Request A Quote",
+   "description": "",
+   "canonical": "https://hipelpools.ca/en-ca/request-a-quote",
+   "robots": null,
+   "h1": [
+    "Request A Quote",
+    "Please Fill In The Form Below"
+   ],
+   "words": 78,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/aquarino-ontario": {
+   "title": "Aquarino Fiberglass Pools Ontario - Installation & Sales - Hipel Pools",
+   "description": "Aquarino Fiberglass Pools Installed In Ontario. Small Fiberglass Pools For Every yard. Rectangular in shape with many features and colours to choose from.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/aquarino-ontario",
+   "robots": null,
+   "h1": [
+    "Aquarino Fiberglass Pools"
+   ],
+   "words": 1253,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/azoria": {
+   "title": "Azoria Fiberglass Pools - Installation & Sales - Hipel Pools",
+   "description": "Discover Azoria fiberglass pools by Hipel Pools—durable, elegant, and expertly installed across Kitchener, Waterloo, Cambridge & Guelph.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/azoria",
+   "robots": null,
+   "h1": [
+    "Azoria Fiberglass Pools"
+   ],
+   "words": 2724,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/azoria/bayfield": {
+   "title": "Bayfield Model - Azoria Fiberglass Pools",
+   "description": "Azoria's Bayfield fiberglass pools, combining modern design with functionality. Enjoy built-in seating, convenient access, and vibrant color finishes.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/azoria/bayfield",
+   "robots": null,
+   "h1": [
+    "Bayfield"
+   ],
+   "words": 777,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/azoria/britannia": {
+   "title": "Britannia Model - Azoria Fiberglass Pools",
+   "description": "The Azoria Britannia is a 16' x 35' fiberglass pool featuring side entry steps, built-in seating, and a 5' depth for family fun and relaxation.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/azoria/britannia",
+   "robots": null,
+   "h1": [
+    "Brittania"
+   ],
+   "words": 775,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/azoria/darlington": {
+   "title": "Darlington Model - Azoria Fiberglass Pools",
+   "description": "Shop the Azoria Darlington 12'x25' at Hipel Pools. A compact free-form pool designed for socializing with its unique built-in seats.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/azoria/darlington",
+   "robots": null,
+   "h1": [
+    "Darlington"
+   ],
+   "words": 744,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/azoria/dover": {
+   "title": "Dover Model - Azoria Fiberglass Pools",
+   "description": "Shop the Azoria Dover 16'x38' fiberglass pool at Hipel Pools. Its stunning free-form design includes built-in seats and a generous swim area.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/azoria/dover",
+   "robots": null,
+   "h1": [
+    "Dover"
+   ],
+   "words": 749,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/azoria/elora": {
+   "title": "Elora Model - Azoria Fiberglass Pools",
+   "description": "Discover the Elora fiberglass plunge pool from Azoria, designed for relaxation and socializing with integrated seating, dual entry steps.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/azoria/elora",
+   "robots": null,
+   "h1": [
+    "Elora"
+   ],
+   "words": 714,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/azoria/florencia": {
+   "title": "Florencia Model - Azoria Fiberglass Pools",
+   "description": "Explore the Azoria Florencia fiberglass pool, featuring elegant design, built-in seating, and stunning color options. Discover the possibilities.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/azoria/florencia",
+   "robots": null,
+   "h1": [
+    "Florencia"
+   ],
+   "words": 744,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/azoria/hopewell": {
+   "title": "Hopewell Model - Azoria Fiberglass Pools",
+   "description": "The Azoria Hopewell is a 15' x 35' fiberglass pool with side entry steps, built-in seating, and a 6' deep end for versatile family enjoyment.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/azoria/hopewell",
+   "robots": null,
+   "h1": [
+    "Hopewell"
+   ],
+   "words": 782,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/azoria/kelowna": {
+   "title": "Kelowna Model - Azoria Fiberglass Pools",
+   "description": "Discover the spacious Azoria Kelowna fiberglass pool, designed for elegance and comfort, featuring built-in seating and wide entry steps.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/azoria/kelowna",
+   "robots": null,
+   "h1": [
+    "Kelowna"
+   ],
+   "words": 751,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/azoria/larimar": {
+   "title": "Larimar Model - Azoria Fiberglass Pools",
+   "description": "Azoria's Larimar fiberglass pool, is a small plunge pool, with features like integrated seating and a spacious tanning ledge, perfect for any backyard.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/azoria/larimar",
+   "robots": null,
+   "h1": [
+    "Larimar"
+   ],
+   "words": 764,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/azoria/lazuli": {
+   "title": "Lazuli Model - Azoria Fiberglass Pools",
+   "description": "Explore the stylish and versatile Lazuli fiberglass pool by Azoria, A pool designed for socializing and relaxing with family & friends.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/azoria/lazuli",
+   "robots": null,
+   "h1": [
+    "Lazuli"
+   ],
+   "words": 785,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/azoria/leamy": {
+   "title": "Leamy Model - Azoria Fiberglass Pools",
+   "description": "Shop the Azoria Leamy Fiberglass Pool at Hipel Pools. With a classic design this pool is perfect for any space, available in 12'6\"x29' and 15'x34' sizes.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/azoria/leamy",
+   "robots": null,
+   "h1": [
+    "Leamy"
+   ],
+   "words": 781,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/azoria/oka": {
+   "title": "Oka Model - Azoria Fiberglass Pools",
+   "description": "The Oka fiberglass pool from Azoria. Featuring a free flowing design, durable construction, and vibrant color options for a stunning backyard oasis.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/azoria/oka",
+   "robots": null,
+   "h1": [
+    "Oka"
+   ],
+   "words": 778,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/azoria/opal": {
+   "title": "Opal Model - Azoria Fiberglass Pools",
+   "description": "Opal fiberglass plunge pool model, a small plunge style pool designed for families with modern aesthetics.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/azoria/opal",
+   "robots": null,
+   "h1": [
+    "Opal"
+   ],
+   "words": 762,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/azoria/perla": {
+   "title": "Perla Model - Azoria Fiberglass Pools",
+   "description": "Discover the Azoria Perla fiberglass pool, featuring a modern design, built-in tanning ledge, and customizable color finishes for your perfect backyard.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/azoria/perla",
+   "robots": null,
+   "h1": [
+    "Perla"
+   ],
+   "words": 733,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/azoria/quartz": {
+   "title": "Quartz Model - Azoria Fiberglass Pools",
+   "description": "Azoria Fiberglass Pools Quartz model. Featuring a full width tanning ledge, rectangular shape, wide entry steps & flat bottom design.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/azoria/quartz",
+   "robots": null,
+   "h1": [
+    "Quartz"
+   ],
+   "words": 774,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/azoria/roseway": {
+   "title": "Roseway Model - Azoria Fiberglass Pools",
+   "description": "Shop the Azoria Roseway 10'x24' fiberglass pool. This compact classic style pool fits small yards and has a generous 5' 6\" depth.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/azoria/roseway",
+   "robots": null,
+   "h1": [
+    "Roseway"
+   ],
+   "words": 739,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/azoria/sandbanks": {
+   "title": "Sandbanks Model - Azoria Fiberglass Pools",
+   "description": "Azoria Fiberglass Pools' stylish Sandbanks plunge pools, designed for relaxation and compact spaces. The perfect socializing and cool off pool.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/azoria/sandbanks",
+   "robots": null,
+   "h1": [
+    "Sandbanks"
+   ],
+   "words": 751,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/azoria/sapphire": {
+   "title": "Sapphire Model With Built In Spa - Azoria Fiberglass Pools",
+   "description": "Discover the Azoria Sapphire fiberglass pool & spa combination, offering a perfect blend of fun, relaxation, and stylish design for your backyard retreat.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/azoria/sapphire",
+   "robots": null,
+   "h1": [
+    "Sapphire"
+   ],
+   "words": 768,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/azoria/sauble": {
+   "title": "Sauble Model - Azoria Fiberglass Pools",
+   "description": "The Sauble by Azoria Fiberglass Pools, designed for style & comfort, featuring a tanning ledge, integrated seating, and a spacious swim area.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/azoria/sauble",
+   "robots": null,
+   "h1": [
+    "Sauble"
+   ],
+   "words": 770,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/azoria/south-hampton": {
+   "title": "South Hampton Model - Azoria Fiberglass Pools",
+   "description": "The South Hampton model from Azoria, featuring a modern design with practical amenities for families and entertainers, perfect for relaxation and swimming.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/azoria/south-hampton",
+   "robots": null,
+   "h1": [
+    "South Hampton"
+   ],
+   "words": 726,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/azoria/tanza": {
+   "title": "Tanza Relaxtion Module - Azoria Fiberglass Pools",
+   "description": "Add luxury to your yard with the Tanza relaxation module from Hipel Pools. This 10-inch deep tanning ledge is available in 8'x8' and 8'x11' sizes.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/azoria/tanza",
+   "robots": null,
+   "h1": [
+    "Tanza"
+   ],
+   "words": 751,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/azoria/tofino": {
+   "title": "Tofino Model - Azoria Fiberglass Pools",
+   "description": "Discover the Tofino fiberglass pool, a large 16' x 40' pool featuring an 8-foot deep end, full-width entry steps, and integrated seating.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/azoria/tofino",
+   "robots": null,
+   "h1": [
+    "Tofino"
+   ],
+   "words": 800,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/azoria/topaze": {
+   "title": "Topaze Model - Azoria Fiberglass Pools",
+   "description": "Discover the Azoria Topaze fiberglass pool, featuring full-width steps, and vibrant finishes to transform your backyard into a luxurious retreat.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/azoria/topaze",
+   "robots": null,
+   "h1": [
+    "Topaze"
+   ],
+   "words": 756,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/azoria/wasaga": {
+   "title": "Wasaga Model - Azoria Fiberglass Pools",
+   "description": "Discover the Wasaga 14'x32' fiberglass pool at Hipel Pools. This free-form pool has built-in seating and a 5' 10\" deep end.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/azoria/wasaga",
+   "robots": null,
+   "h1": [
+    "Wasaga"
+   ],
+   "words": 765,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/azoria/zircon": {
+   "title": "Zircon Model - Azoria Fiberglass Pools",
+   "description": "Discover the Azoria Zircon pool—flat-bottom design with side entry steps and a built-in bench for comfort, style, and easy access.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/azoria/zircon",
+   "robots": null,
+   "h1": [
+    "Zircon"
+   ],
+   "words": 778,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/dolphin-ontario": {
+   "title": "Dolphin Fiberglass Pools Ontario - Installation & Sales - Hipel Pools",
+   "description": "Dolphin Fiberglass Pools, Canadian-Made Fiberglass Pools. Installation Available Throughout Ontario. 26 Pool Models Available For Installation.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/dolphin-ontario",
+   "robots": null,
+   "h1": [
+    "Dolphin Fiberglass Pools"
+   ],
+   "words": 1145,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/imagine-pools-ontario": {
+   "title": "Imagine Fiberglass Pools Ontario - Installation & Sales - Hipel Pools",
+   "description": "Imagine Pools manufactures 11 unique fiberglass pool models in varying sizes. Pick your dream Imagine fiberglass pool model for installation in Ontario.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/imagine-pools-ontario",
+   "robots": null,
+   "h1": [
+    "Imagine Fiberglass Pools"
+   ],
+   "words": 1386,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/brands/latham-ontario": {
+   "title": "Latham Fiberglass Pools Ontario - Installation & Sales - Hipel Pools",
+   "description": "We install and service Latham Fiberglass Pools throughout Southern Ontario, Offering over 50 exciting fiberglass pool models to choose from.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/brands/latham-ontario",
+   "robots": "noindex",
+   "h1": [
+    "Latham Fiberglass Pools"
+   ],
+   "words": 2000,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/locations/brantford-paris-ontario": {
+   "title": "Fiberglass Pools Brantford & Paris, ON - Inground Pool Experts",
+   "description": "Fiberglass pools available for installation in Brantford and Paris, ON. Over 75 different pool models are available to create your backyard oasis.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/locations/brantford-paris-ontario",
+   "robots": null,
+   "h1": [
+    "Fiberglass Pools In Brantford & Paris, ON"
+   ],
+   "words": 1949,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/locations/elmira-stjacobs-woolwich-ontario": {
+   "title": "Fiberglass Pools In Elmira & St. Jacobs, Serving All Woolwich Township",
+   "description": "Fiberglass pools available for installation in Elmira, St. Jacobs, Conestoga, Bloomingdale, Maryhill, and all of Woolwich township.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/locations/elmira-stjacobs-woolwich-ontario",
+   "robots": null,
+   "h1": [
+    "Fiberglass Pools In Elmira & St. Jacobs, ON"
+   ],
+   "words": 2109,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/locations/elora-fergus-ontario": {
+   "title": "Fiberglass Pools In Elora & Fergus, ON - Inground Swimming Pool Expert",
+   "description": "Fiberglass Inground Swimming Pool Installation In Elora & Fergus. We are your local pool company providing quality pool services since 2018.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/locations/elora-fergus-ontario",
+   "robots": null,
+   "h1": [
+    "Fiberglass Pools In Elora & Fergus, ON"
+   ],
+   "words": 2014,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/locations/fiberglass-pools-guelph-ontario": {
+   "title": "Fiberglass Pools In Guelph - Fiberglass Inground Pool Installation",
+   "description": "Fiberglass Pools are low-maintenance and extremely durable. They are ideal for installation in Guelph, ON, and the surrounding areas.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/locations/fiberglass-pools-guelph-ontario",
+   "robots": null,
+   "h1": [
+    "Fiberglass Pools In Guelph, ON"
+   ],
+   "words": 1435,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/locations/kitchener": {
+   "title": "Fiberglass Pools In Kitchener - Builders Of Fiberglass Pools In KW",
+   "description": "Fiberglass Pools In Kitchener By KW's Most Trusted Turn-Key Fiberglass Pool Builder. Offer over 100 models from leading manufacturers like Azoria & Latham",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/locations/kitchener",
+   "robots": null,
+   "h1": [
+    "Fiberglass Pools In Kitchener"
+   ],
+   "words": 1313,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/locations/listowel-drayton-ontario": {
+   "title": "Fiberglass Pools In Listowel & Drayton, ON - Hipel Pools",
+   "description": "Explore our impressive selection of over 75 fiberglass pool models. Ideal for installation in Listowel & Drayton, and the surrounding areas.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/locations/listowel-drayton-ontario",
+   "robots": null,
+   "h1": [
+    "Fiberglass Pools In Listowel & Drayton, ON"
+   ],
+   "words": 2030,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/locations/ontario": {
+   "title": "Fiberglass Pools Ontario - Installation, Sales, Service - Hipel Pools",
+   "description": "Over 75 models of fiberglass swimming pools for installation in Ontario. Offering an impressive selection of inground fiberglass pool models, you'll love.\n",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/locations/ontario",
+   "robots": null,
+   "h1": [
+    "Ontario's Best Selection Of Luxury Fiberglass Pools"
+   ],
+   "words": 1788,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/locations/waterloo": {
+   "title": "Fiberglass Pools Waterloo - Turnkey Fiberglass Pool Builders In KW",
+   "description": "Your trusted fiberglass pool builder in Waterloo. Specializing in full turn key design/build projects. We handle everything so you don't have to!",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/locations/waterloo",
+   "robots": null,
+   "h1": [
+    "Fiberglass Pools In Waterloo"
+   ],
+   "words": 1284,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/fiberglass-pools/plunge-pools": {
+   "title": "Plunge Pools Ontario - Installation & Sales - Hipel Pools",
+   "description": "Plunge Pools Installed In Ontario. Small size, compact design. Hot/Cold Models Available. Small inground pools and plunge pools for any backyard.",
+   "canonical": "https://hipelpools.ca/fiberglass-pools/plunge-pools",
+   "robots": null,
+   "h1": [
+    "Plunge Pools"
+   ],
+   "words": 1299,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/immerspa-inground-spas-ontario": {
+   "title": "Immerspa Inground Spas Ontario - Inground Hot Tubs - Hipel Pools",
+   "description": "Immerspa Inground Spas and Hot Tubs Installed In Ontario. Small Fiberglass Spas For Every yard. Indulge in relaxation and hydrotherapy with an inground spa",
+   "canonical": "https://hipelpools.ca/immerspa-inground-spas-ontario",
+   "robots": null,
+   "h1": [
+    "Immerspa Inground Spas"
+   ],
+   "words": 1037,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/in-ground-swimming-pools": {
+   "title": "Inground Pool Installation & Service In KW, Cambridge, & Guelph",
+   "description": "Premium in-ground pool installations by Hipel Pools in Kitchener, Waterloo, Cambridge & Guelph. Enjoy a seamless design process and exceptional service",
+   "canonical": "https://hipelpools.ca/in-ground-swimming-pools",
+   "robots": null,
+   "h1": [
+    "In-Ground Swimming Pools"
+   ],
+   "words": 574,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/in-ground-swimming-pools/locations/kitchener-ontario": {
+   "title": "Inground Pools Kitchener, ON - Installation, Sales, Service",
+   "description": "In-ground swimming pool design & installation in Kitchener, Ontario. Inground pool installation, sales, and repair. Top-Rated Swimming Pool Contractors.\n",
+   "canonical": "https://hipelpools.ca/in-ground-swimming-pools/locations/kitchener-ontario",
+   "robots": null,
+   "h1": [
+    "In-Ground Pools In Kitchener, ON"
+   ],
+   "words": 1187,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/landscapers-kitchener-waterloo": {
+   "title": "Landscapers In Kitchener-Waterloo - Landscaping Services In KW",
+   "description": "Looking for a landscaper in Kitchener-Waterloo? We offer custom landscaping solutions in the KW area, including patios, driveways, walkways, and retaining walls.",
+   "canonical": "https://hipelpools.ca/landscapers-kitchener-waterloo",
+   "robots": null,
+   "h1": [
+    "Landscaping Services"
+   ],
+   "words": 616,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/locations/clifford-harriston": {
+   "title": "Pool Installation & Pool Service In Clifford & Harriston",
+   "description": "Superior Pool Design, Construction & Pool Service For Homeowners In Clifford & Harriston, Ontario. Local Swimming Pool Contractors You Can Rely On!",
+   "canonical": "https://hipelpools.ca/locations/clifford-harriston",
+   "robots": null,
+   "h1": [
+    "Pool Design, Build & Pool Service In Clifford & Harriston"
+   ],
+   "words": 1537,
+   "jsonld": 2
+  },
+  "https://hipelpools.ca/locations/listowel-drayton-palmerston": {
+   "title": "Pool Installation & Pool Service In Listowel, Drayton & Palmerston ",
+   "description": "Pool Design, Build, Installation & Pool Service In Listowel, Drayton & Palmerston. Your one stop pool company serving Southern Ontario",
+   "canonical": "https://hipelpools.ca/locations/listowel-drayton-palmerston",
+   "robots": null,
+   "h1": [
+    "Pool Design, Build & Pool Service In Listowel & Drayton"
+   ],
+   "words": 1529,
+   "jsonld": 2
+  },
+  "https://hipelpools.ca/pool-accessories/-inground-solar-blanket-roller": {
+   "title": "Cleardeck - Inground Solar Blanket Roller Pool Cover Systems- Ontario",
+   "description": "Cleardeck inground solar blanket roller systems hide your solar blanket beneath the surface keeping that ugly blanket roller off your pool deck and out of site",
+   "canonical": "https://hipelpools.ca/pool-accessories/-inground-solar-blanket-roller",
+   "robots": null,
+   "h1": [
+    "Cleardeck Inground Solar Blanket Roller"
+   ],
+   "words": 555,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/pool-accessories/automatic-pool-covers-ontario": {
+   "title": "Automatic Pool Covers Ontario - Installation & Service - Coverpools",
+   "description": "Automatic Pool Cover Installation & Service In Ontario. Coverpools Autocovers Enhance Safety, Pool Cleanliness, Heat Retention & Reduce Chemical Usage...",
+   "canonical": "https://hipelpools.ca/pool-accessories/automatic-pool-covers-ontario",
+   "robots": null,
+   "h1": [
+    "Automatic Pool Covers"
+   ],
+   "words": 805,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/pool-accessories/pool-spa-automation-ontario": {
+   "title": "Pool/Spa Automation Systems - Hipel Pools",
+   "description": "Pool Automation systems allow total control of pools & spas from a mobile app anywhere in the world. We install and service automation systems in Ontario",
+   "canonical": "https://hipelpools.ca/pool-accessories/pool-spa-automation-ontario",
+   "robots": null,
+   "h1": [
+    "Pool & Spa Automation"
+   ],
+   "words": 806,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/pool-accessories/pool-water-features-ontario": {
+   "title": "Water Features For Your Swimming Pool - Hipel Pools",
+   "description": "Water Features bring the serene sound of flowing water and an element of elegance to your backyard swimming pool. We design and build custom water features",
+   "canonical": "https://hipelpools.ca/pool-accessories/pool-water-features-ontario",
+   "robots": null,
+   "h1": [
+    "Water Features"
+   ],
+   "words": 913,
+   "jsonld": 2
+  },
+  "https://hipelpools.ca/pool-landscape-custom-design": {
+   "title": "Custom Pool & Landscape Design - Plan, Visualize and Enhance",
+   "description": "At Hipel Pools we design custom pools and landscapes for homeowners in Ontario and follow it up with full building services for our custom pool designs.",
+   "canonical": "https://hipelpools.ca/pool-landscape-custom-design",
+   "robots": null,
+   "h1": [
+    "Pool & Landscape Design"
+   ],
+   "words": 617,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/pool-landscape-design/-waterloo-region": {
+   "title": "Pool & Landscape Design In Waterloo Region - Design/Build Experts",
+   "description": "Transform Your Backyard Into A Luxurious Retreat With Custom Pool Design, Build, & Service.  Servicing Kitchener-Waterloo, Cambridge, Guelph & Surrounding.",
+   "canonical": "https://hipelpools.ca/pool-landscape-design/-waterloo-region",
+   "robots": null,
+   "h1": [
+    "Designed First Built Right"
+   ],
+   "words": 3421,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/pool-liners/findlay": {
+   "title": "Findlay Pool Liners & Patterns",
+   "description": "Discover premium Findlay inground pool liners designed for durability and style. Request a quote today for expert installation and transform your backyard oasis.",
+   "canonical": "https://hipelpools.ca/pool-liners/findlay",
+   "robots": null,
+   "h1": [
+    "Findlay Inground Pool Liners"
+   ],
+   "words": 1688,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/pool-liners/latham": {
+   "title": "Latham Pool Liners - Pool Liners In Kitchener, Waterloo, Cambridge",
+   "description": "Refresh your inground pool with a Latham vinyl pool liner. We offer vinyl liner installation and replacement in Waterloo Region & Guelph\n",
+   "canonical": "https://hipelpools.ca/pool-liners/latham",
+   "robots": null,
+   "h1": [
+    "Latham Inground Pool Liners"
+   ],
+   "words": 1239,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/pool-openings-closings/locations/kitchener-waterloo": {
+   "title": "Pool Openings & Pool Closings In Kitchener-Waterloo",
+   "description": "Swimming Pool Openings & Closing/ Winterizing In Kitchener-Waterloo, ON. We help pool owners make owning a pool simple and stress free. Book With Us\n",
+   "canonical": "https://hipelpools.ca/pool-openings-closings/locations/kitchener-waterloo",
+   "robots": null,
+   "h1": [
+    "Pool Openings & Closings In Kitchener Waterloo"
+   ],
+   "words": 3007,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/pool-service-repair/locations/kitchener-waterloo-cambridge-guelph": {
+   "title": "Pool Service & Repair In Kitchener, Waterloo, Cambridge, Guelph",
+   "description": "Swimming Pool Service, Repairs, Maintenance & Renovations In Kitchener, Waterloo, Cambridge, & Guelph, ON. Our pool service techs are trained & certified.",
+   "canonical": "https://hipelpools.ca/pool-service-repair/locations/kitchener-waterloo-cambridge-guelph",
+   "robots": null,
+   "h1": [
+    "Pool Service and Repairs In Kitchener, Waterloo, Cambridge, Guelph"
+   ],
+   "words": 2054,
+   "jsonld": 2
+  },
+  "https://hipelpools.ca/pool-service-repair/pool-openings": {
+   "title": "Hipel Pools: Pool Opening Services - Hassle Free Pool Openings Ontario",
+   "description": "In-ground swimming pool opening services In Southern Ontario. Get your pool opening professionally done by the Hipel Pools Team. Your Pool Service Experts\n",
+   "canonical": "https://hipelpools.ca/pool-service-repair/pool-openings",
+   "robots": null,
+   "h1": [
+    "Inground Pool Openings"
+   ],
+   "words": 1254,
+   "jsonld": 2
+  },
+  "https://hipelpools.ca/pool-service-repair/pool-openings/locations/kitchener-waterloo": {
+   "title": "Pool Openings In Kitchener-Waterloo: Hassle Free Pool Opening",
+   "description": "Swimming Pool Openings In Kitchener-Waterloo, ON. We help pool owners open their pools and prepare them for a summer of fun. Book Your Pool Opening Now!\n",
+   "canonical": "https://hipelpools.ca/pool-service-repair/pool-openings/locations/kitchener-waterloo",
+   "robots": null,
+   "h1": [
+    "Pool Openings Kitchener Waterloo"
+   ],
+   "words": 2299,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/pool-service-repair/weekly-pool-maintenance": {
+   "title": "Weekly Pool Maintenance In Southern Ontario",
+   "description": "Weekly Pool Maintenance In Southern Ontario. Full Pool Care Services & Pool Cleaning So You Can Enjoy Your Pool Stress Free All Summer.",
+   "canonical": "https://hipelpools.ca/pool-service-repair/weekly-pool-maintenance",
+   "robots": "noindex",
+   "h1": [
+    "Weekly Pool Maintenance"
+   ],
+   "words": 1479,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/pool-service-repair/weekly-pool-maintenance/locations/kitchener-waterloo": {
+   "title": "Weekly Pool Maintenance In Kitchener-Waterloo: For Stress Free Summers",
+   "description": "Weekly Pool Maintenance In Kitchener-Waterloo. Full Pool Care Services & Pool Cleaning So You Can Enjoy Your Pool Stress Free All Summer.",
+   "canonical": "https://hipelpools.ca/pool-service-repair/weekly-pool-maintenance/locations/kitchener-waterloo",
+   "robots": null,
+   "h1": [
+    "Weekly Pool Maintenance In Kitchener Waterloo"
+   ],
+   "words": 1450,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/pool-service/pool-closing/": {
+   "title": "Hipel Pools: Pool Closing & Winterizing",
+   "description": "In-ground swimming pool closing & winterizing services. Have your swimming pool professionally closed by the Hipel Pools winterizing experts\n",
+   "canonical": "https://hipelpools.ca/pool-service/pool-closing/",
+   "robots": null,
+   "h1": [
+    "Pool Closing & Winterizing"
+   ],
+   "words": 837,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/swimming-pool-contractors/kitchener-ontario": {
+   "title": "Local Swimming Pool Contractors In Kitchener, ON",
+   "description": "Your trusted local swimming pool contractors in Kitchener. We offer inground pools, fiberglass pools, pool service, and many more swimming pool services",
+   "canonical": "https://hipelpools.ca/swimming-pool-contractors/kitchener-ontario",
+   "robots": null,
+   "h1": [
+    "Swimming Pool Contractors In Kitchener"
+   ],
+   "words": 1378,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/swimming-pool-renovations-repairs/locations/kitchener-waterloo-cambridge-guelph-ontario": {
+   "title": "Pool Renovations & Repairs - Kitchener, Waterloo, Cambridge, Guelph",
+   "description": "Swimming Pool Renovations and repairs In Kitchener, Waterloo, Cambridge, and Guelph. Bring your old pool back to life with a refreshing renovation.\n",
+   "canonical": "https://hipelpools.ca/swimming-pool-renovations-repairs/locations/kitchener-waterloo-cambridge-guelph-ontario",
+   "robots": null,
+   "h1": [
+    "Swimming Pool Renovations"
+   ],
+   "words": 1136,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/thankyou-for-requesting-a-pool-closing": {
+   "title": "Thankyou For Requesting A Pool Closing",
+   "description": "",
+   "canonical": "https://hipelpools.ca/thankyou-for-requesting-a-pool-closing",
+   "robots": null,
+   "h1": [
+    "Thankyou!"
+   ],
+   "words": 208,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/thankyou-for-requesting-a-quote": {
+   "title": "Thankyou For Requesting A Quote",
+   "description": "",
+   "canonical": "https://hipelpools.ca/thankyou-for-requesting-a-quote",
+   "robots": null,
+   "h1": [
+    "Thankyou!"
+   ],
+   "words": 217,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/thankyou-for-requesting-a-quote-pool-build": {
+   "title": "Thankyou For Requesting A Quote",
+   "description": "",
+   "canonical": "https://hipelpools.ca/thankyou-for-requesting-a-quote-pool-build",
+   "robots": null,
+   "h1": [
+    "Thankyou!"
+   ],
+   "words": 217,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/vinyl-liner-installation-replacement/locations/cambridge-ontario": {
+   "title": "Vinyl Liner Installation & Replacement - Cambridge, ON",
+   "description": "Revitalize your pool with professional vinyl liner replacement and installation services in Cambridge, ON. Improved the look, feel, & swimming experience.",
+   "canonical": "https://hipelpools.ca/vinyl-liner-installation-replacement/locations/cambridge-ontario",
+   "robots": null,
+   "h1": [
+    "Vinyl Liner Replacement & Installation In Cambridge, ON"
+   ],
+   "words": 1527,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/vinyl-liner-installation-replacement/locations/guelph-ontario": {
+   "title": "Vinyl Liner Installation & Replacement - Guelph, ON",
+   "description": "Transform your pool with expert vinyl liner replacement and installation in Guelph, ON. Enhance aesthetics and durability while increasing property value.",
+   "canonical": "https://hipelpools.ca/vinyl-liner-installation-replacement/locations/guelph-ontario",
+   "robots": null,
+   "h1": [
+    "Vinyl Liner Replacement & Installation In Guelph, ON"
+   ],
+   "words": 1298,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/vinyl-liner-installation-replacement/locations/kitchener-waterloo-ontario": {
+   "title": "Vinyl Liner Installation & Replacement - Kitchener, Waterloo",
+   "description": "Refresh your inground pool with a new vinyl pool liner. We offer vinyl liner installation and replacement in Kitchener-Waterloo. \n",
+   "canonical": "https://hipelpools.ca/vinyl-liner-installation-replacement/locations/kitchener-waterloo-ontario",
+   "robots": null,
+   "h1": [
+    "Vinyl Liner Replacement & Installation In Kitchener Waterloo"
+   ],
+   "words": 1231,
+   "jsonld": 1
+  },
+  "https://hipelpools.ca/vinyl-liner-pools/locations/kitchener-waterloo-cambridge-guelph-ontario": {
+   "title": "Vinyl Liner Pools Ontario - Kitchener, Waterloo, Cambridge, Guelph",
+   "description": "Vinyl liner swimming pools for installation in Kitchener, Waterloo, Cambridge and Guelph, Ontario. Customize the inground swimming pool of your dreams.\n",
+   "canonical": "https://hipelpools.ca/vinyl-liner-pools/locations/kitchener-waterloo-cambridge-guelph-ontario",
+   "robots": null,
+   "h1": [
+    "Vinyl Liner Pools"
+   ],
+   "words": 1233,
+   "jsonld": 1
+  }
+ },
+ "redirects": {
+  "https://blog.hipelpools.ca/fiberglass-pools-canada-prices": "https://blog.hipelpools.ca/fiberglass-pools-canada-prices-how-much-does-a-fiberglass-pool-cost",
+  "https://blog.hipelpools.ca/how-much-does-a-12-x-24-inground-pool-cost-in-2025": "https://blog.hipelpools.ca/how-much-does-a-12-x-24-inground-pool-cost-in-2026",
+  "https://hipelpools.ca/accessories/winter-safety-pool-covers-ontario": "https://hipelpools.ca/accessories/winter-safety-pool-covers",
+  "https://hipelpools.ca/cleardeck-systems-inground-solar-blanket-roller/": "https://blog.hipelpools.ca/cleardeck-systems-inground-solar-blanket-roller",
+  "https://hipelpools.ca/company/about-us/": "https://hipelpools.ca/company/about-us",
+  "https://hipelpools.ca/en-ca/request-a-quote/": "https://hipelpools.ca/en-ca/request-a-quote",
+  "https://hipelpools.ca/fiberglass-pools-ontario-kitchener-waterloo-cambridge/": "https://hipelpools.ca/fiberglass-pools/locations/kitchener",
+  "https://hipelpools.ca/fiberglass-pools/locations/kitchener-waterloo-cambridge": "https://hipelpools.ca/fiberglass-pools/locations/kitchener",
+  "https://hipelpools.ca/fiberglass-pools/locations/kitchener-waterloo-cambridge-guelph-ontario/": "https://hipelpools.ca/fiberglass-pools/locations/kitchener",
+  "https://hipelpools.ca/fiberglass-pools/locations/kitchener-waterloo-cambridge-guelph/": "https://hipelpools.ca/fiberglass-pools/locations/kitchener",
+  "https://hipelpools.ca/fiberglass-pools/locations/kitchener-waterloo-cambridge-ontario/": "https://hipelpools.ca/fiberglass-pools/locations/kitchener",
+  "https://hipelpools.ca/fiberglass-pools/ontario/kitchener-waterloo-cambridge/": "https://hipelpools.ca/fiberglass-pools/locations/kitchener",
+  "https://hipelpools.ca/is-a-winter-safety-pool-cover-right-for-me/": "https://blog.hipelpools.ca/is-a-winter-safety-pool-cover-the-best-winter-pool-cover",
+  "https://hipelpools.ca/pool-evaporation-how-much-water-can-evaporate-from-a-pool-in-a-day/": "https://blog.hipelpools.ca/pool-evaporation-how-much-water-can-evaporate-from-a-pool-in-a-day",
+  "https://hipelpools.ca/pool-service-maintenance/pool-opening": "https://hipelpools.ca/pool-service-repair/pool-openings",
+  "https://hipelpools.ca/pool-service/pool-closing": "https://hipelpools.ca/pool-service/pool-closing/",
+  "https://hipelpools.ca/pool-service/pool-opening/": "https://hipelpools.ca/pool-service-repair/pool-openings",
+  "https://hipelpools.ca/swimming-pool-renovations-repairs": "https://hipelpools.ca/pool-service-repair/locations/kitchener-waterloo-cambridge-guelph",
+  "https://hipelpools.ca/swimming-pool-service-repairs-maintenance-renovations": "https://hipelpools.ca/pool-service-repair/locations/kitchener-waterloo-cambridge-guelph",
+  "https://hipelpools.ca/swimming-pool-service-repairs-maintenance-renovations/pool-openings": "https://hipelpools.ca/pool-service-repair/pool-openings"
+ },
+ "gone": [
+  "https://hipelpools.ca/above-ground-pools/models/athena",
+  "https://hipelpools.ca/above-ground-pools/models/downtown",
+  "https://hipelpools.ca/above-ground-pools/models/newtown",
+  "https://hipelpools.ca/above-ground-pools/models/vibesoho",
+  "https://hipelpools.ca/above-ground-pools/models/whitewood",
+  "https://hipelpools.ca/inground-pool-installation-design/kitchener-waterloo-cambridge",
+  "https://hipelpools.ca/pool-liners/cardinal",
+  "https://hipelpools.ca/request-a-quote"
+ ]
+}

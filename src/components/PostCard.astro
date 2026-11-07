@@ -1,0 +1,22 @@
+---
+import { formatDate, readingMinutes, href, type Post } from '../lib/content';
+interface Props { post: Post; headingLevel?: 'h2' | 'h3' }
+const { post, headingLevel = 'h2' } = Astro.props;
+const img = post.listImage || post.featuredImage;
+const H = headingLevel;
+---
+<a class="post-card" href={href(post.path, 'blog')}>
+  <div class="post-card__img">
+    {img && <img src={href(img, 'main')} alt="" loading="lazy" />}
+  </div>
+  <div class="post-card__body">
+    <div class="post-card__meta">
+      <span>{post.author.name}</span>
+      <span>{formatDate(post.datePublished)}</span>
+      <span>{readingMinutes(post.html)} min read</span>
+    </div>
+    <H class="post-card__title">{post.heading}</H>
+    {post.excerpt && <p class="post-card__excerpt">{post.excerpt}</p>}
+    <span class="post-card__more">Start Reading <span aria-hidden="true">&rarr;</span></span>
+  </div>
+</a>

@@ -1,0 +1,79 @@
+---
+// One route renders every URL. Which URLs get built depends on SITE_TARGET:
+//   main -> hipelpools.ca pages      blog -> blog.hipelpools.ca posts + listings
+import Base from '../layouts/Base.astro';
+import PostView from '../components/PostView.astro';
+import Listing from '../components/Listing.astro';
+import LeadForm from '../components/LeadForm.astro';
+import PostCard from '../components/PostCard.astro';
+import { TARGET, pages, posts, blogs, blogRoot, chunk, POSTS_PER_PAGE, type Post } from '../lib/content';
+import listingMeta from '../data/blog-listings.json';
+
+export function getStaticPaths() {
+  const toParam = (p: string) => (p === '/' ? undefined : p.replace(/^\/|\/$/g, ''));
+
+  if (TARGET === 'main') {
+    return pages.map((page) => ({ params: { path: toParam(page.path) }, props: { kind: 'page', page } }));
+  }
+
+  const out: any[] = [];
+  for (const post of posts) out.push({ params: { path: toParam(post.path) }, props: { kind: 'post', post } });
+
+  for (const blog of Object.keys(blogs)) {
+    const root = blogRoot(blog);
+    const inBlog = posts.filter((p) => p.blog === blog);
+    const addListing = (base: string, list: Post[], extra: Record<string, unknown>) => {
+      chunk(list, POSTS_PER_PAGE).forEach((items, i) => {
+        const n = i + 1;
+        const page = { n, total: Math.ceil(list.length / POSTS_PER_PAGE) || 1 };
+        const props = { kind: 'listing', blog, base, items, page, ...extra };
+        if (n === 1) out.push({ params: { path: toParam(base || '/') }, props });
+        // HubSpot also serves /page/1 (same as the first page) - keep it alive.
+        if (n > 1 || base === root || (extra as any).author) {
+          out.push({ params: { path: toParam(`${base}/page/${n}`) }, props });
+        }
+      });
+    };
+    addListing(root, inBlog, {});
+    for (const [slug, name] of Object.entries(blogs[blog].tags as Record<string, string>)) {
+      addListing(`${root}/tag/${slug}`, inBlog.filter((p) => p.tags.some((t) => t.slug === slug)), { tag: { slug, name } });
+    }
+    for (const [slug, a] of Object.entries((blogs[blog].authors || {}) as Record<string, any>)) {
+      addListing(`${root}/author/${slug}`, inBlog.filter((p) => p.author.slug === slug), { author: { slug, ...a } });
+    }
+  }
+  return out;
+}
+
+const props = Astro.props as any;
+
+// Page HTML contains placeholders for things HubSpot rendered with JavaScript:
+// forms (<div data-hp-form="quote">) and "latest blog posts" lists. Split around them
+// so real components can be rendered in their place.
+const PLACEHOLDER = /<div data-hp-form="(quote|contact)"><\/div>|<div id="related-blog-posts-\d+">\s*<\/div>/g;
+type Part = { html: string } | { form: 'quote' | 'contact' } | { posts: true };
+const parts: Part[] = [];
+if (props.kind === 'page') {
+  let last = 0;
+  for (const m of props.page.html.matchAll(PLACEHOLDER)) {
+    parts.push({ html: props.page.html.slice(last, m.index) });
+    parts.push(m[1] ? { form: m[1] } : { posts: true });
+    last = m.index + m[0].length;
+  }
+  parts.push({ html: props.page.html.slice(last) });
+}
+const latest = posts.filter((p) => p.blog === 'main').slice(0, 3);
+const path = '/' + (Astro.params.path || '');
+const lm = (listingMeta as Record<string, any>)[path];
+---
+{props.kind === 'page' && (
+  <Base meta={props.page.meta} path={props.page.path} pageCss={props.page.css} needsElfsight={props.page.html.includes('elfsight-app')}>
+    {parts.map((part) =>
+      'html' in part ? <Fragment set:html={part.html} /> :
+      'form' in part ? <LeadForm kind={part.form} /> :
+      <div class="post-grid post-grid--embedded">{latest.map((p) => <PostCard post={p} headingLevel="h3" />)}</div>
+    )}
+  </Base>
+)}
+{props.kind === 'post' && <PostView post={props.post} />}
+{props.kind === 'listing' && <Listing {...props} path={path} hubspotMeta={lm?.meta} />}

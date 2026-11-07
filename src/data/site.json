@@ -1,0 +1,105 @@
+{
+  "name": "Hipel Pools",
+  "mainHost": "https://hipelpools.ca",
+  "blogHost": "https://blog.hipelpools.ca",
+  "phone": "(519)-997-2434",
+  "phoneHref": "tel:+5199972434",
+  "email": "sales@hipelpools.ca",
+  "address": {
+    "street": "43 Manitou Dr",
+    "city": "Kitchener",
+    "region": "Ontario",
+    "postalCode": "N2C 1K9",
+    "country": "Canada"
+  },
+  "quoteUrl": "/en-ca/request-a-quote",
+  "logo": "/files/hipel-logo-clear-500-x-214-clear-background.png",
+  "logoWhite": "/files/imported-sitepage-images/hipel-logo-clear-white-1.svg",
+  "mission": "Our Mission: To Bring Value To Families By Creating Them Outdoor Spaces Where Relaxation, Fun, And Family Time Blossom Into Lasting Lifetime Memories.",
+  "social": [
+    { "name": "Instagram", "url": "https://www.instagram.com/hipelpools/" },
+    { "name": "Facebook", "url": "https://www.facebook.com/hipelpools/" }
+  ],
+  "analytics": {
+    "gtm": "GTM-TT8V4T9C",
+    "ga4": "G-TJ9R3ESTEW"
+  },
+  "nav": [
+    {
+      "label": "Pools & Spas",
+      "children": [
+        {
+          "label": "Fiberglass Pools",
+          "href": "/fiberglass-pools/locations/ontario",
+          "children": [
+            { "label": "Azoria Fiberglass Pools", "href": "/fiberglass-pools/brands/azoria" },
+            { "label": "Latham Fiberglass Pools", "href": "/fiberglass-pools/brands/latham-ontario" },
+            { "label": "Imagine Fiberglass Pools", "href": "/fiberglass-pools/brands/imagine-pools-ontario" },
+            { "label": "Pricing Calculator", "href": "https://hipelpools.outgrow.us/fiberglass-pool-cost-calculator-canada", "external": true }
+          ]
+        },
+        {
+          "label": "Vinyl Liner Pools",
+          "href": "/vinyl-liner-pools/locations/kitchener-waterloo-cambridge-guelph-ontario",
+          "children": [
+            { "label": "Pool Designs", "href": "/vinyl-liner-pools/locations/kitchener-waterloo-cambridge-guelph-ontario" },
+            {
+              "label": "Liners",
+              "href": "/vinyl-liner-installation-replacement/locations/kitchener-waterloo-ontario",
+              "children": [
+                { "label": "Latham Pool Liners", "href": "/pool-liners/latham" },
+                { "label": "Findlay Pool Liners", "href": "/pool-liners/findlay" }
+              ]
+            }
+          ]
+        },
+        { "label": "Spas", "href": "/immerspa-inground-spas-ontario" },
+        { "label": "Pool Renovations", "href": "/swimming-pool-renovations-repairs/locations/kitchener-waterloo-cambridge-guelph-ontario" },
+        {
+          "label": "Pool Covers",
+          "children": [
+            { "label": "Automatic Pool Covers", "href": "/pool-accessories/automatic-pool-covers-ontario" },
+            { "label": "Cleardeck Systems", "href": "/pool-accessories/-inground-solar-blanket-roller" },
+            { "label": "Winter Safety Covers", "href": "/accessories/winter-safety-pool-covers" }
+          ]
+        }
+      ]
+    },
+    { "label": "Design & Build", "href": "/pool-landscape-design/-waterloo-region" },
+    {
+      "label": "Pool Service",
+      "href": "/pool-service-repair/locations/kitchener-waterloo-cambridge-guelph",
+      "children": [
+        {
+          "label": "Residential",
+          "children": [
+            { "label": "Pool Openings", "href": "/pool-service-repair/pool-openings" },
+            { "label": "Pool Closings", "href": "/pool-service/pool-closing/" },
+            { "label": "Winter Safety Cover", "href": "/accessories/winter-safety-pool-covers" },
+            { "label": "Liner Replacements", "href": "/vinyl-liner-installation-replacement/locations/kitchener-waterloo-ontario" },
+            { "label": "Pool Renovations", "href": "/swimming-pool-renovations-repairs/locations/kitchener-waterloo-cambridge-guelph-ontario" },
+            { "label": "Weekly Maintenance", "href": "/pool-service-repair/weekly-pool-maintenance" }
+          ]
+        },
+        { "label": "Commercial" }
+      ]
+    },
+    {
+      "label": "Company",
+      "children": [
+        { "label": "Blog", "href": "https://blog.hipelpools.ca" },
+        { "label": "Contact Us", "href": "/company/contact-us" },
+        { "label": "About Us", "href": "/company/about-us" }
+      ]
+    }
+  ],
+  "footerNav": [
+    { "label": "Fiberglass Pools", "href": "/fiberglass-pools/locations/kitchener" },
+    { "label": "Vinyl Liner Pools", "href": "/vinyl-liner-pools/locations/kitchener-waterloo-cambridge-guelph-ontario" },
+    { "label": "Spas", "href": "/immerspa-inground-spas-ontario" },
+    { "label": "Landscaping", "href": "/landscapers-kitchener-waterloo" },
+    { "label": "Blog", "href": "https://blog.hipelpools.ca" },
+    { "label": "Contact Us", "href": "/company/contact-us" },
+    { "label": "About Us", "href": "/company/about-us" }
+  ]
+}

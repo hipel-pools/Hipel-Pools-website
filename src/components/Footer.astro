@@ -1,0 +1,45 @@
+---
+import { SITE, href } from '../lib/content';
+const year = new Date().getFullYear();
+const a = SITE.address;
+---
+<footer class="site-footer">
+  <div class="page-center site-footer__top">
+    <div class="site-footer__brand">
+      <a href={href('/', 'main')} aria-label="Hipel Pools home">
+        <img src={href(SITE.logoWhite, 'main')} alt="Hipel Pools" width="200" height="86" loading="lazy" />
+      </a>
+      <p>{SITE.mission}</p>
+      <div class="site-footer__social">
+        {SITE.social.map((s) => (
+          <a href={s.url} target="_blank" rel="noopener nofollow" aria-label={s.name}>
+            {s.name === 'Instagram' ? (
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM21.9 7.1c-.1-1.6-.4-3-1.6-4.2S17.6 1.3 16 1.2C14.3 1.1 9.7 1.1 8 1.2c-1.6.1-3 .4-4.2 1.6S2.2 5.5 2.1 7.1C2 8.8 2 13.4 2.1 15.1c.1 1.6.4 3 1.6 4.2s2.6 1.5 4.2 1.6c1.7.1 6.3.1 8 0 1.6-.1 3-.4 4.2-1.6s1.5-2.6 1.6-4.2c.1-1.7.1-6.3.2-8zM19.8 17.6a3.3 3.3 0 0 1-1.8 1.8c-1.3.5-4.3.4-5.7.4s-4.4.1-5.7-.4a3.3 3.3 0 0 1-1.8-1.8c-.5-1.3-.4-4.3-.4-5.7s-.1-4.4.4-5.7A3.3 3.3 0 0 1 6.6 4.4c1.3-.5 4.3-.4 5.7-.4s4.4-.1 5.7.4a3.3 3.3 0 0 1 1.8 1.8c.5 1.3.4 4.3.4 5.7s.1 4.4-.4 5.7z"/></svg>
+            ) : (
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M13.5 22v-8.2h2.8l.4-3.2h-3.2V8.5c0-.9.3-1.6 1.6-1.6h1.7V4.1c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.4H7.3v3.2h2.8V22h3.4z"/></svg>
+            )}
+          </a>
+        ))}
+      </div>
+    </div>
+    <div class="site-footer__contact">
+      <h2 class="site-footer__title">Contact</h2>
+      <p>
+        {a.street}<br />{a.city}, {a.region} {a.postalCode}<br />
+        <a href={SITE.phoneHref}>{SITE.phone}</a><br />
+        <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
+      </p>
+    </div>
+  </div>
+  <div class="site-footer__legal">
+    <div class="page-center site-footer__legal-inner">
+      <span>&copy; {year} Hipel Pools. All rights reserved</span>
+      <nav aria-label="Footer">
+        {SITE.footerNav.map((l) => <a href={href(l.href, l.href.startsWith('https://blog.') ? 'blog' : 'main')}>{l.label}</a>)}
+      </nav>
+      <a href="#" class="site-footer__top-link" aria-label="Back to top" data-back-to-top>
+        <svg viewBox="0 0 16 10" aria-hidden="true"><path d="M1 9l7-7 7 7" fill="none" stroke="currentColor" stroke-width="2" /></svg>
+      </a>
+    </div>
+  </div>
+</footer>

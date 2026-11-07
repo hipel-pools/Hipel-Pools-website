@@ -1,0 +1,44 @@
+{
+ "url": "https://hipelpools.ca/en-ca/request-a-quote",
+ "path": "/en-ca/request-a-quote",
+ "slug": "en-ca__request-a-quote",
+ "meta": {
+  "title": "Hipel Pools - Request A Quote",
+  "description": "",
+  "canonical": "https://hipelpools.ca/en-ca/request-a-quote",
+  "robots": null,
+  "ogTitle": "Hipel Pools - Request A Quote",
+  "ogDescription": "",
+  "ogImage": null,
+  "ogType": null,
+  "twitterCard": "summary",
+  "lang": "en-ca",
+  "prev": null,
+  "next": null,
+  "jsonld": [
+   {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Hipel Pools",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://hipelpools.ca/files/hipel-logo-clear-500-x-214-clear-background.png"
+    },
+    "email": "sales@hipelpools.ca",
+    "url": "https://hipelpools.ca/en-ca/request-a-quote",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "Canada",
+     "addressRegion": "Ontario",
+     "addressLocality": "Kitchener",
+     "postalCode": "N2C 1K9",
+     "streetAddress": "43 Manitou Dr"
+    },
+    "telephone": "(519)-997-2434",
+    "knowsLanguage": "en-ca"
+   }
+  ]
+ },
+ "css": "#m-widget_1697906705475 { color: #016E8F !important; display: block !important; text-align: center !important } #m-widget_1697906705475 p , #m-widget_1697906705475 li , #m-widget_1697906705475 span , #m-widget_1697906705475 label , #m-widget_1697906705475 h1 , #m-widget_1697906705475 h2 , #m-widget_1697906705475 h3 , #m-widget_1697906705475 h4 , #m-widget_1697906705475 h5 , #m-widget_1697906705475 h6 { color: #016E8F !important } #m-widget_1741058483690 { background-color: #FFFFFF !important; background-image: none !important; border-color: #016E8F !important; border-style: solid !important; display: block !important } #m-widget_1697906705475 { color: #016E8F !important; display: block !important; text-align: center !important } #m-widget_1697906705475 p , #m-widget_1697906705475 li , #m-widget_1697906705475 span , #m-widget_1697906705475 label , #m-widget_1697906705475 h1 , #m-widget_1697906705475 h2 , #m-widget_1697906705475 h3 , #m-widget_1697906705475 h4 , #m-widget_1697906705475 h5 , #m-widget_1697906705475 h6 { color: #016E8F !important } #m-widget_1741058483690 { background-color: #FFFFFF !important; background-image: none !important; border-color: #016E8F !important; border-style: solid !important; display: block !important } .dnd_area-row-0-force-full-width-section > .row-fluid { max-width: none !important; } /* HubSpot Styles (default) */ .dnd_area-row-0-padding { padding-top: 0px !important; padding-bottom: 0px !important; padding-left: 0px !important; padding-right: 0px !important; } .dnd_area-row-1-padding { padding-bottom: 20px !important; } .dnd_area-row-1-background-layers { background-image: linear-gradient(rgba(243, 245, 245, 1), rgba(243, 245, 245, 1)) !important; background-position: left top !important; background-size: auto !important; background-repeat: no-repeat !important; } .dnd_area-row-2-background-layers { background-image: linear-gradient(rgba(243, 245, 245, 1), rgba(243, 245, 245, 1)) !important; background-position: left top !important; background-size: auto !important; background-repeat: no-repeat !important; }",
+ "html": "<div class=\"body-container\"><div class=\"container-fluid\">\n<div class=\"row-fluid-wrapper\">\n<div class=\"row-fluid\">\n<div class=\"span12 widget-span\">\n<div class=\"row-fluid-wrapper row-depth-1 row-number-1 dnd_area-row-0-force-full-width-section dnd-section dnd_area-row-0-padding\">\n<div class=\"row-fluid\">\n<div class=\"span12 widget-span\">\n<div id=\"m-dnd_area-module-1\"><div class=\"hp-hero hp-hero--small hp--dark hp--margin-t-0 hp--margin-b-0\" style=\"background-color: transparent; \"><picture class=\"hp--abs-full hp-bg\"><source media=\"(max-width: 575px)\" srcset=\"/files/384481295-308349545149412-6135811485225855996-n-1.jpg\"><source media=\"(max-width: 767px)\" srcset=\"/files/384481295-308349545149412-6135811485225855996-n-1.jpg\">\n<source media=\"(max-width: 991px)\" srcset=\"/files/384481295-308349545149412-6135811485225855996-n-1.jpg\">\n<source media=\"(max-width: 1199px)\" srcset=\"/files/384481295-308349545149412-6135811485225855996-n-1.jpg\"><source media=\"(max-width: 2000px)\" srcset=\"/files/384481295-308349545149412-6135811485225855996-n-1.jpg\"><img alt=\"384481295_308349545149412_6135811485225855996_n-1\" class=\"hp-parallax hp-bg\" loading=\"eager\" src=\"/files/384481295-308349545149412-6135811485225855996-n-1.jpg\" style=\"object-fit: cover;object-position: parallax;width:100%;background-color: rgba( 26, 29, 23, 1.0);\"/>\n</source></source></source></source></source></picture><div class=\"hp--abs-full hp-bg-overlay\" style=\"background-color: rgba(1, 110, 143, 0.65)\"></div><div class=\"page-center hp-hero__info-box\"><h1 class=\"hp-hero__title hp-heading-style--default hp--toc-ignore\"><span class=\"hp-hero__title-inner\">Request A Quote</span></h1><div class=\"hp-rich-text hp-hero__desc\">\n<span>Fill in our request a quote form below and a representative will be in touch within 1 business day.</span>\n</div></div>\n</div></div>\n</div>\n</div>\n</div>\n<div class=\"row-fluid-wrapper row-depth-1 row-number-2 dnd_area-row-1-padding dnd_area-row-1-background-color dnd-section dnd_area-row-1-background-layers\">\n<div class=\"row-fluid\">\n<div class=\"span12 widget-span dnd-column\">\n<div class=\"row-fluid-wrapper row-depth-1 row-number-3 dnd-row\">\n<div class=\"row-fluid\">\n<div class=\"span12 widget-span\">\n<div id=\"m-widget_1697906705475\">\n<span id=\"m-widget_1697906705475_\"><h1>Please Fill In The Form Below</h1></span></div>\n</div>\n</div>\n</div>\n<div class=\"row-fluid-wrapper row-depth-1 row-number-4 dnd-row\">\n<div class=\"row-fluid\">\n<div class=\"span12 widget-span\">\n<div id=\"m-widget_1697906801047\"><span id=\"m-widget_1697906801047_\"><p style=\"text-align: center;\">Thank you for considering us for your pool or landscape project. Please fill in the form below and provide us with as much information as possible so we can better understand what you’re looking for and how we can help</p>\n<p style=\"text-align: center;\"><strong>A Representative will be in touch within 1 business day</strong></p></span></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"row-fluid-wrapper row-depth-1 row-number-5 dnd_area-row-2-background-layers dnd_area-row-2-background-color dnd-section\">\n<div class=\"row-fluid\">\n<div class=\"span12 widget-span dnd-column\">\n<div class=\"row-fluid-wrapper row-depth-1 row-number-6 dnd-row\">\n<div class=\"row-fluid\">\n<div class=\"span12 widget-span\">\n<div id=\"m-widget_1741058483690\">\n<span id=\"m-widget_1741058483690_\">\n<div data-hp-form=\"quote\"></div>\n</span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></div>"
+}

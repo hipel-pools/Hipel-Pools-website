@@ -1,0 +1,26 @@
+---
+import { href } from '../lib/content';
+type Item = { label: string; href?: string; external?: boolean; children?: Item[] };
+interface Props { items: Item[]; depth?: number }
+const { items, depth = 1 } = Astro.props;
+const link = (i: Item) => (i.href ? href(i.href, i.href.startsWith('https://blog.') ? 'blog' : 'main') : undefined);
+---
+<ul class={`nav__list nav__list--d${depth}`}>
+  {items.map((item) => (
+    <li class:list={['nav__item', { 'nav__item--parent': item.children?.length }]}>
+      <div class="nav__row">
+        {item.href ? (
+          <a class="nav__link" href={link(item)} {...(item.external ? { target: '_blank', rel: 'noopener' } : {})}>{item.label}</a>
+        ) : (
+          <span class="nav__link nav__link--label" tabindex={item.children?.length ? 0 : undefined}>{item.label}</span>
+        )}
+        {item.children?.length ? (
+          <button class="nav__toggle" aria-expanded="false" aria-label={`Show ${item.label} menu`}>
+            <svg viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" /></svg>
+          </button>
+        ) : null}
+      </div>
+      {item.children?.length ? <Astro.self items={item.children} depth={depth + 1} /> : null}
+    </li>
+  ))}
+</ul>

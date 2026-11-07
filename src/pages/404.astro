@@ -1,0 +1,15 @@
+---
+import Base from '../layouts/Base.astro';
+import { href, SITE } from '../lib/content';
+const meta = { title: 'Page Not Found | Hipel Pools', robots: 'noindex' };
+---
+<Base meta={meta} path="/404">
+  <section class="not-found page-center">
+    <h1 class="section-title">Page Not Found</h1>
+    <p>Sorry, we couldn't find that page. It may have moved.</p>
+    <p>
+      <a class="hp-btn" href={href('/', 'main')}>Go To Homepage</a>
+      <a class="hp-btn hp-btn--outline" href={href(SITE.quoteUrl, 'main')}>Request A Quote</a>
+    </p>
+  </section>
+</Base>

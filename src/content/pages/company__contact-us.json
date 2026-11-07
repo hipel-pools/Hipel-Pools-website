@@ -1,0 +1,44 @@
+{
+ "url": "https://hipelpools.ca/company/contact-us",
+ "path": "/company/contact-us",
+ "slug": "company__contact-us",
+ "meta": {
+  "title": "Hipel Pools - Contact Us",
+  "description": "Contact Hipel Pools for expert swimming pool assistance. Fill out the contact form for a prompt response within 1 business day. Find our addresses and contact information here.",
+  "canonical": "https://hipelpools.ca/company/contact-us",
+  "robots": null,
+  "ogTitle": "Hipel Pools - Contact Us",
+  "ogDescription": "Contact Hipel Pools for expert swimming pool assistance. Fill out the contact form for a prompt response within 1 business day. Find our addresses and contact information here.",
+  "ogImage": null,
+  "ogType": null,
+  "twitterCard": "summary",
+  "lang": "en",
+  "prev": null,
+  "next": null,
+  "jsonld": [
+   {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Hipel Pools",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://hipelpools.ca/files/hipel-logo-clear-500-x-214-clear-background.png"
+    },
+    "email": "sales@hipelpools.ca",
+    "url": "https://hipelpools.ca/company/contact-us",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "Canada",
+     "addressRegion": "Ontario",
+     "addressLocality": "Kitchener",
+     "postalCode": "N2C 1K9",
+     "streetAddress": "43 Manitou Dr"
+    },
+    "telephone": "(519)-997-2434",
+    "knowsLanguage": "en"
+   }
+  ]
+ },
+ "css": "#m-dnd_area-module-2 .hp-sec__title { color:#016E8F; }\n.dnd_area-row-0-force-full-width-section > .row-fluid { max-width: none !important; } .dnd_area-row-1-force-full-width-section > .row-fluid { max-width: none !important; } .dnd_area-row-2-force-full-width-section > .row-fluid { max-width: none !important; } /* HubSpot Styles (default) */ .dnd_area-row-0-padding { padding-top: 0px !important; padding-bottom: 0px !important; padding-left: 0px !important; padding-right: 0px !important; } .dnd_area-row-1-padding { padding-top: 0px !important; padding-bottom: 0px !important; padding-left: 0px !important; padding-right: 0px !important; } .dnd_area-row-2-padding { padding-top: 0px !important; padding-bottom: 0px !important; padding-left: 0px !important; padding-right: 0px !important; }",
+ "html": "<div class=\"body-container\"><div class=\"container-fluid\">\n<div class=\"row-fluid-wrapper\">\n<div class=\"row-fluid\">\n<div class=\"span12 widget-span\">\n<div class=\"row-fluid-wrapper row-depth-1 row-number-1 dnd_area-row-0-force-full-width-section dnd-section dnd_area-row-0-padding\">\n<div class=\"row-fluid\">\n<div class=\"span12 widget-span\">\n<div id=\"m-dnd_area-module-1\"><div class=\"hp-hero hp-hero--small hp--dark hp--margin-t-0 hp--margin-b-0\" style=\"background-color: transparent; \"><picture class=\"hp--abs-full hp-bg\"><source media=\"(max-width: 575px)\" srcset=\"/files/shutterstock-708397222-2-1.jpg\"><source media=\"(max-width: 767px)\" srcset=\"/files/shutterstock-708397222-2-1.jpg\">\n<source media=\"(max-width: 991px)\" srcset=\"/files/shutterstock-708397222-2-1.jpg\">\n<source media=\"(max-width: 1199px)\" srcset=\"/files/shutterstock-708397222-2-1.jpg\"><source media=\"(max-width: 2000px)\" srcset=\"/files/shutterstock-708397222-2-1.jpg\"><img alt=\"Hipel Pools Contact Us\" class=\"hp-parallax hp-bg\" loading=\"eager\" src=\"/files/shutterstock-708397222-2-1.jpg\" style=\"object-fit: cover;object-position: parallax;width:100%;background-color: rgba( 26, 29, 23, 1.0);\"/>\n</source></source></source></source></source></picture><div class=\"hp--abs-full hp-bg-overlay\" style=\"background-color: rgba(255, 255, 255, 0.0)\"></div><div class=\"page-center hp-hero__info-box hp-hero__info-box--centered\"><h1 class=\"hp-hero__title hp-heading-style--default hp--toc-ignore\"><span class=\"hp-hero__title-inner\">CONTACT US</span></h1></div>\n</div></div>\n</div>\n</div>\n</div>\n<div class=\"row-fluid-wrapper row-depth-1 row-number-2 dnd_area-row-1-padding dnd-section dnd_area-row-1-force-full-width-section\">\n<div class=\"row-fluid\">\n<div class=\"span12 widget-span\">\n<div id=\"m-dnd_area-module-2\">\n<div class=\"hp-sec-form hp-form-style-v4 hp--light hp--margin-t-0 hp--margin-b-0\">\n<div class=\"page-center hp--relative\">\n<div class=\"hp-sec-form__content hp--margin-centered hp--align-c\">\n<div class=\"hp-sec-form__intro-sec hp-sec__intro-sec hp-sec-form__intro-sec--vertical\"><h2 class=\"hp-sec__title hp-heading-style--default hp-sec-form__title\">Hipel Pools Contact Form ⬇️</h2><span class=\"hp-rich-text hp-sec__desc hp-sec-form__desc\">\n<p>Our team of swimming pool pros is here to assist in any way we can. Please fill out the contact form below, and a representative will be in touch within 1-business day!</p>\n</span></div><div class=\"hp-form hp-button--outlined hp-sec-form__form hp-btn--primary-solid\"><span id=\"m-dnd_area-module-2_\">\n<div data-hp-form=\"contact\"></div>\n</span></div></div>\n</div>\n</div></div>\n</div>\n</div>\n</div>\n<div class=\"row-fluid-wrapper row-depth-1 row-number-3 dnd_area-row-2-force-full-width-section dnd_area-row-2-padding dnd-section\">\n<div class=\"row-fluid\">\n<div class=\"span12 widget-span\">\n<div id=\"m-dnd_area-module-3\">\n<div class=\"hp-sec-steps hp-mh-group-byRow hp-sec-steps--with-intro hp-sec-steps--centered hp--align-c hp--dark hp--sec-padding-t-sm hp--sec-padding-b-sm hp--margin-t-0 hp--margin-b-0\">\n<div class=\"page-center hp--relative\"><div class=\"hp-sec-steps__intro-sec hp-sec__intro-sec\"><h2 class=\"hp-sec__title hp-heading-style--default hp-sec__title--narrow hp-sec-steps__title\">Contact Info</h2></div><div class=\"row-fluid\">\n<div class=\"span12 hp--relative\">\n<div class=\"hp-steps hp-steps--2 hp--neg-margin-lr-10 hp--clearfix\"><div class=\"hp-step\">\n<div class=\"hp-mh--wrapper\"></div>\n<div class=\"hp-mh--wrapper\"><span class=\"hp-step__title hp-step__title--has-desc\">Mailing Address</span></div>\n<span class=\"hp-rich-text hp-step__desc\"><p>📍2 Matthias Place<br/>Maryhill, ON, N0B 2B0</p>\n<p>☎️ Phone: (519)-997-2434<br/>📨 E-Mail: <a href=\"mailto:info@hipelpools.ca\" rel=\"noopener\">info@hipelpools.ca</a></p></span>\n<div class=\"hp-mh--wrapper\"></div>\n</div><div class=\"hp-step\">\n<div class=\"hp-mh--wrapper\"></div>\n<div class=\"hp-mh--wrapper\"><span class=\"hp-step__title hp-step__title--has-desc\">Shop Address</span></div>\n<span class=\"hp-rich-text hp-step__desc\"><p>📍43 Manitou Drive<br/>Kitchener, ON, N2C 1K9</p>\n<p>☎️ Phone: (519)-997-2434<br/>📨 E-Mail: <a href=\"mailto:info@hipelpools.ca\" rel=\"noopener\">info@hipelpools.ca</a></p></span>\n<div class=\"hp-mh--wrapper\"></div>\n</div></div>\n</div>\n</div>\n</div>\n</div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></div>"
+}

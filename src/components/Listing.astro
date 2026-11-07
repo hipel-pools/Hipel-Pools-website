@@ -1,0 +1,70 @@
+---
+import Base from '../layouts/Base.astro';
+import PostCard from './PostCard.astro';
+import { blogs, blogRoot, href, SITE, type Post, type Meta } from '../lib/content';
+interface Props {
+  blog: string;
+  base: string;
+  path: string;
+  items: Post[];
+  page: { n: number; total: number };
+  tag?: { slug: string; name: string };
+  author?: { slug: string; name: string; title: string; description: string };
+  hubspotMeta?: Meta;
+}
+const { blog, base, path, items, page, tag, author, hubspotMeta } = Astro.props;
+const b = blogs[blog];
+const root = blogRoot(blog);
+const suffix = page.n > 1 ? ` (${page.n})` : '';
+
+// Reuse HubSpot's exact titles/descriptions where the URL existed; same pattern for new ones.
+const meta: Meta = {
+  title: hubspotMeta?.title || (author ? author.title : tag ? `${b.title} | ${tag.name}` : b.title) + suffix,
+  description: hubspotMeta?.description ?? ((author ? author.description : b.description) + suffix),
+  // /page/1 duplicates the first page: point search engines at the clean URL.
+  canonical: SITE.blogHost + (path.endsWith('/page/1') ? base || '/' : path),
+  jsonld: hubspotMeta?.jsonld,
+};
+const pageUrl = (n: number) => (n === 1 ? base || '/' : `${base}/page/${n}`);
+const heading = author ? author.name : b.heading;
+const hero = b.hero ? href(b.hero, 'main') : undefined;
+---
+<Base meta={meta} path={path} bodyClass="is-listing">
+  <Fragment slot="head">
+    <link rel="alternate" type="application/rss+xml" href={`${root}/rss.xml`} />
+    {page.n > 1 && <link rel="prev" href={SITE.blogHost + pageUrl(page.n - 1)} />}
+    {page.n < page.total && <link rel="next" href={SITE.blogHost + pageUrl(page.n + 1)} />}
+  </Fragment>
+  <section class="listing-hero hp--dark">
+    {hero && <img class="listing-hero__bg" src={hero} alt="" />}
+    <div class="listing-hero__overlay" style={b.heroOverlay || undefined}></div>
+    <div class="page-center"><h1 class="listing-hero__title">{heading}</h1></div>
+  </section>
+
+  {!author && Object.keys(b.tags).length > 0 && (
+    <nav class="listing-filter" aria-label="Blog categories">
+      <div class="page-center">
+        <a href={root || '/'} class:list={{ active: !tag }}>Show all</a>
+        {Object.entries(b.tags as Record<string, string>).map(([slug, name]) => (
+          <a href={`${root}/tag/${slug}`} class:list={{ active: tag?.slug === slug }}>{name}</a>
+        ))}
+      </div>
+    </nav>
+  )}
+
+  <section class="listing page-center">
+    {author && <h2 class="section-title">Blog Post by {author.name}</h2>}
+    <div class="post-grid">
+      {items.map((p) => <PostCard post={p} />)}
+    </div>
+    {page.total > 1 && (
+      <nav class="pagination" aria-label="Pagination">
+        {page.n > 1 && <a href={pageUrl(page.n - 1)} rel="prev">&larr; Prev</a>}
+        {Array.from({ length: page.total }, (_, i) => i + 1).map((n) => (
+          n === page.n ? <span aria-current="page">{n}</span> : <a href={pageUrl(n)}>{n}</a>
+        ))}
+        {page.n < page.total && <a href={pageUrl(page.n + 1)} rel="next">Next &rarr;</a>}
+      </nav>
+    )}
+  </section>
+</Base>

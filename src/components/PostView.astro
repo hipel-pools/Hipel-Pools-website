@@ -1,0 +1,78 @@
+---
+import Base from '../layouts/Base.astro';
+import PostCard from './PostCard.astro';
+import { posts, blogs, blogRoot, formatDate, readingMinutes, href, SITE, type Post } from '../lib/content';
+interface Props { post: Post }
+const { post } = Astro.props;
+
+const siblings = posts.filter((p) => p.blog === post.blog);
+const i = siblings.findIndex((p) => p.path === post.path);
+const newer = siblings[i - 1];
+const older = siblings[i + 1];
+const related = siblings
+  .filter((p) => p.path !== post.path)
+  .map((p) => ({ p, score: p.tags.filter((t) => post.tags.some((x) => x.slug === t.slug)).length }))
+  .sort((a, b) => b.score - a.score || +new Date(b.p.datePublished) - +new Date(a.p.datePublished))
+  .slice(0, 3)
+  .map((x) => x.p);
+const blog = blogs[post.blog];
+const root = blogRoot(post.blog) || '/';
+const hero = post.featuredImage ? href(post.featuredImage, 'main') : undefined;
+const author = blog.authors?.[post.author.slug];
+---
+<Base meta={post.meta} path={post.path} bodyClass="is-post">
+  <link slot="head" rel="alternate" type="application/rss+xml" href={`${blogRoot(post.blog)}/rss.xml`} />
+  <section class="post-hero hp--dark">
+    {hero && <img class="post-hero__bg" src={hero} alt={post.featuredAlt || ''} fetchpriority="high" />}
+    <div class="post-hero__overlay"></div>
+    <div class="page-center post-hero__inner">
+      <div class="post-hero__meta">
+        <a href={`${blogRoot(post.blog)}/author/${post.author.slug}`}>{post.author.name}</a>
+        <span>{formatDate(post.datePublished)}</span>
+        <span>{readingMinutes(post.html)} min read</span>
+      </div>
+      <h1 class="post-hero__title">{post.heading}</h1>
+    </div>
+  </section>
+
+  <nav class="post-nav page-center" aria-label="Post navigation">
+    {older ? <a class="post-nav__prev" href={older.path} title={older.heading}><span aria-hidden="true">&larr;</span> Previous</a> : <span></span>}
+    <a class="post-nav__all" href={root} aria-label="All posts">
+      <svg viewBox="0 0 10 10" aria-hidden="true"><rect x="0" y="0" width="4" height="4" /><rect x="6" y="0" width="4" height="4" /><rect x="0" y="6" width="4" height="4" /><rect x="6" y="6" width="4" height="4" /></svg>
+    </a>
+    {newer ? <a class="post-nav__next" href={newer.path} title={newer.heading}>Next <span aria-hidden="true">&rarr;</span></a> : <span></span>}
+  </nav>
+
+  <article class="post-body hp-rich-text">
+    <Fragment set:html={post.html} />
+  </article>
+
+  {post.tags.length > 0 && (
+    <div class="post-tags page-narrow">
+      {post.tags.map((t) => <a href={`${blogRoot(post.blog)}/tag/${t.slug}`}>{t.name}</a>)}
+    </div>
+  )}
+
+  {author && (
+    <aside class="post-author page-narrow">
+      <div>
+        <p class="post-author__name"><a href={`${blogRoot(post.blog)}/author/${post.author.slug}`}>{author.name}</a></p>
+        <p>{author.description}</p>
+      </div>
+    </aside>
+  )}
+
+  <section class="post-cta hp--dark">
+    <div class="page-center">
+      <h2>Ready To Start Your Backyard Transformation?</h2>
+      <a class="hp-btn hp-btn--light" href={href(SITE.quoteUrl, 'main')}>Request A Quote</a>
+    </div>
+  </section>
+
+  {related.length > 0 && (
+    <section class="post-related page-center">
+      <h2 class="section-title">Related Posts</h2>
+      <div class="post-grid">{related.map((p) => <PostCard post={p} headingLevel="h3" />)}</div>
+    </section>
+  )}
+</Base>

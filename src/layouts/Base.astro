@@ -1,0 +1,81 @@
+---
+import '@fontsource/poppins/400.css';
+import '@fontsource/poppins/500.css';
+import '@fontsource/poppins/600.css';
+import '@fontsource/poppins/700.css';
+import '@fontsource/poppins/800.css';
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+import '../styles/global.css';
+import '../styles/sections.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE, HOST, type Meta } from '../lib/content';
+
+interface Props {
+  meta: Meta;
+  path: string;
+  pageCss?: string;
+  bodyClass?: string;
+  needsElfsight?: boolean;
+}
+const { meta, path, pageCss = '', bodyClass = '', needsElfsight = false } = Astro.props;
+
+// Canonical: keep exactly what HubSpot declared; otherwise self-referencing.
+const canonical = meta.canonical || HOST + path;
+const abs = (u?: string | null) => (!u ? undefined : /^https?:/.test(u) ? u : SITE.mainHost + u);
+const ogImage = abs(meta.ogImage);
+const { gtm, ga4 } = SITE.analytics;
+---
+<!doctype html>
+<html lang={meta.lang || 'en'}>
+  <head>
+    <meta charset="utf-8" />
+    <title>{meta.title}</title>
+    {meta.description && <meta name="description" content={meta.description} />}
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {meta.robots && <meta name="robots" content={meta.robots} />}
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href={SITE.mainHost + '/files/favicon-1.png'} />
+    <meta property="og:title" content={meta.ogTitle || meta.title} />
+    {(meta.ogDescription || meta.description) && <meta property="og:description" content={meta.ogDescription || meta.description} />}
+    <meta property="og:url" content={canonical} />
+    <meta property="og:type" content={meta.ogType || 'website'} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    <meta name="twitter:card" content={meta.twitterCard || 'summary_large_image'} />
+    <meta name="twitter:title" content={meta.ogTitle || meta.title} />
+    {(meta.ogDescription || meta.description) && <meta name="twitter:description" content={meta.ogDescription || meta.description} />}
+    {ogImage && <meta name="twitter:image" content={ogImage} />}
+    <slot name="head" />
+    {(meta.jsonld || []).map((d) => <script type="application/ld+json" set:html={JSON.stringify(d)} />)}
+    {pageCss && <style is:inline set:html={pageCss} />}
+
+    <!-- Google Tag Manager + GA4 (same IDs as the HubSpot site, so reporting continues uninterrupted) -->
+    <script is:inline define:vars={{ gtm, ga4 }}>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date()); gtag('config', ga4);
+      (function(w,d,s,l,i){w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer',gtm);
+    </script>
+    <script async src={`https://www.googletagmanager.com/gtag/js?id=${ga4}`}></script>
+  </head>
+  <body class={bodyClass}>
+    <noscript><iframe src={`https://www.googletagmanager.com/ns.html?id=${gtm}`} height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <Header />
+    <main id="main-content">
+      <slot />
+    </main>
+    <Footer />
+    <dialog class="hp-lightbox-dialog" aria-label="Media viewer">
+      <button class="hp-lightbox-dialog__close" aria-label="Close">&times;</button>
+      <div class="hp-lightbox-dialog__body"></div>
+    </dialog>
+    {needsElfsight && <script is:inline src="https://static.elfsight.com/platform/platform.js" async></script>}
+    <script>
+      import '../scripts/site.ts';
+    </script>
+  </body>
+</html>
